@@ -71,6 +71,12 @@ get_header();
                             <td><i class="fa fa-caret-down"></i></td>
                             <td>-0.44</td>
                         </tr>
+                        <tr>
+                            <td>Crude Oil</td>
+                            <td>50.55</td>
+                            <td><i class="fa fa-caret-down"></i></td>
+                            <td>-0.44</td>
+                        </tr>
                     </table>
                 </div>
             </div>
