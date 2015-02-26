@@ -28,7 +28,10 @@
 
 	<?php wp_head(); ?>
 </head>
-<body>
+
+
+<body ng-controller="MainController">
+
 <!--Start Content-->
 
 <?php global $main_nav; ?>

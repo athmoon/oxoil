@@ -304,3 +304,7 @@ footer .list-items li a i { margin-right: 5px; }
         padding: 15px 15px 15px 15px;
     }
 }
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
