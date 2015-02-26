@@ -25,12 +25,20 @@
 
 <?=link_js('jquery/jquery.min.js')?>
 <?=link_js('bootstrap/js/bootstrap.min.js')?>
-<?=link_js('owl-carousel/owl.carousel.js')?>
 <?=link_js('js/jquery.jticker.js')?>
 <script type="text/javascript">
 	jQuery(function($) {
 		$('.ticker').jTicker({
 			offset: 2
+		});
+		$("#owl-carousel").owlCarousel({
+
+			autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+			items : 4,
+			itemsDesktop : [1199,3],
+			itemsDesktopSmall : [979,3]
+
 		});
 	});
 </script>

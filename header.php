@@ -18,12 +18,13 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 	<?= link_css( 'bootstrap/css/bootstrap.min.css' ) ?>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet'
-	      type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,600,400' rel='stylesheet' type='text/css'>
 	<?= link_css( 'font-awesome/css/font-awesome.min.css' ) ?>
 	<?= link_css( 'style.css' ) ?>
-	<?= link_css( 'owl-carousel/owl.carousel.css' ) ?>
-	<?= link_css( 'owl-carousel/owl.theme.css' ) ?>
+
+	<?=link_js('js/owl-carousel/owl.carousel.css')?>
+	<?=link_js('js/owl-carousel/owl.theme.css')?>
+	<?=link_js('js/owl-carousel/owl.transitions.css')?>
 
 	<?php wp_head(); ?>
 </head>
