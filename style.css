@@ -1,0 +1,278 @@
+/*
+Theme Name: Metagra iBoostme Theme
+Theme URI: http://preview.iboostme.com/metagra/;
+Author: iBoostme (Asshurim)
+Author URI: http://iboostme.com/
+Description: iBoostme delivers comprehensive web services ranging from custom website design to development of complex enterprise web applications. We base our offerings on an understanding of clients’ business requirements and providing dependable solutions. We combine business domain knowledge with technology competence and proven methodologies to deliver high quality results in a cost-effective manner to maximize your competitive advantage and productivity. We work double to satisfy the needs of our clients and to meet their expectations. Moreover, we work extra just be able to serve our clients more than what they deserve. We deliberately manifest light year – generating services to provide you unique, superb and feasible products that you are worthy of having.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-design, cjnetsolutions, asshurim, cjnet, wordpress-corporate, iboostme
+Text Domain:  iBoostme Metagra Project
+*/
+
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+}
+
+body{
+
+}
+
+*{
+    font-family:'opensans-regular', sans-serif;
+}
+b{
+    font-family: 'opensans-bold', sans-serif;
+}
+/*Formats*/
+.italic{
+    font-style: italic;
+}
+
+/*Sections*/
+section{
+    color: #444444;
+}
+/*
+section img, .featured-list figure{
+    position: relative;
+    overflow: hidden;
+    */
+/*border: 6px solid #FFF;*//*
+
+    box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 0 0 1px #e5e5e5;
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 0 0 1px #e5e5e5;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 0 0 1px #e5e5e5;
+}
+section img:after, .featured-list figure:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #e5e5e5;
+    z-index: -1;
+}
+*/
+
+/*Headings*/
+h2 {
+    font-size: 33px;
+    margin-top: 30px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+h2.no-background, h2.single-line {
+    position: relative;
+    overflow: hidden;
+    min-height: 40px;
+    color: #444444;
+    font-size: 26px;
+}
+h2.no-background span, h2.single-line span {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    position: relative;
+    padding: 0 20px;
+}
+h2.no-background span:before,
+h2.no-background span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    top: 0.5em;
+    background: url('images/light-heading-sp.png') repeat-x bottom transparent;
+    height: 6px;
+}
+h2.no-background span:before, h2.single-line span:before {
+    right: 100%;
+}
+h2.no-background span:after, h2.single-line span:after {
+    left: 100%;
+}
+h2.no-background b{
+    color: #c7810d;
+}
+h2.no-background .emp{
+    color: #fff;
+    font-weight: bold;
+}
+
+/*Single Line*/
+h2.single-line{
+    font-size: 22px;
+    color: #555555;
+}
+h2.single-line.md{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+h2.single-line.md b{
+    color: #c7810d;
+}
+h2.single-line.md span{
+    padding: 0 22px;
+}
+h2.single-line span:before,
+h2.single-line span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    border-top: 1px solid #dfdfdf;
+    top: 0.8em;
+    height: 6px;
+}
+
+
+/*Header*/
+header{
+    position: relative;
+    z-index: 99;
+    border-bottom: 2px solid #2c276d;
+    background: #16163e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #16163e 0%, #0c0c27 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#16163e), color-stop(100%,#0c0c27)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #16163e 0%,#0c0c27 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #16163e 0%,#0c0c27 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #16163e 0%,#0c0c27 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #16163e 0%,#0c0c27 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16163e', endColorstr='#0c0c27',GradientType=0 ); /* IE6-9 */
+}
+
+header #logo{
+}
+header #logo .logo-img {
+    margin-top: 19px;
+    padding-right: 20px;
+    float:left;
+}
+
+header #logo .logo-tag {
+    padding: 22px 25px 25px 25px;
+}
+/*Navigation Bar*/
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.navbar-collapse{
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-toggle .icon-bar{
+    background-color: white;
+}
+.navbar-nav li a{ color: white; padding: 40px 15px 35px 15px;  transition: all .3s; }
+.nav-caret { position: absolute;  top:100%;  left: 35%; opacity: 0; transition: all .3s;  }
+.navbar-nav .active .nav-caret{ opacity: 1; }
+.navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav .active{
+    background-color: #2c276d;
+}
+
+/*Regulators*/
+.emp { font-style: italic; font-weight: bold; font-family: 'opensans-bold', sans-serif; }
+.btn-blue{ border-radius: 0; border-color: #202181; background-color: #333491; font-weight: bold; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.54); font-family: 'opensans-light', sans-serif; }
+.btn-blue:hover { background-color: #3839a3; border-color: #202181; }
+.btn-lg { font-size: 14px; }
+
+/*Wells*/
+.well { padding: 30px; border-radius: 0; background-color: #1f1f1f; border:none; color: #fff; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);}
+.well .title { font-size: 16px; font-weight: bold;  margin: 0 0 30px 0;  }
+.well a { color: #4041c4; text-decoration: none; }
+.well .recent { margin-bottom: 60px; }
+.well .recent li { margin-bottom: 20px; }
+.well .media p { font-size: 13px; line-height: 2; }
+.well .media-left { padding-right: 20px; }
+.well .media-object { border: 2px solid #4d5052; }
+
+.post-nav li { padding: 5px  15px;  transition: all .3s; }
+.post-nav li:hover a { color: white; }
+.post-nav li a { font-weight: bold; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); transition: all .3s;}
+.post-nav li:hover { background-color: #4c4c4c; color: white !important; cursor: pointer }
+
+.ticker { position: relative;  bottom: 25px; font-weight: bold; padding: 0 100px;  color: white; width: 90%;  margin: 0 auto; }
+.ticker .stat { margin-left: 10px; color: #289328; font-weight: bold; }
+.ticker .item { margin-right: 30px; }
+.ticker .stat .fa { margin-right: 5px; }
+/*Forms*/
+.sexy-form {  }
+.sexy-form .form-control{  border-radius: 0; }
+.sexy-form .btn { border-radius: 0; border-left: 3px solid #06076a; }
+
+.certificate { position: relative; top: 3px; left: 2px; }
+.main-section.with-bg { background: url('images/banner-clean.jpg') no-repeat top center; min-height: 500px; }
+.main-section.with-bg .container { padding-top: 50px; }
+/*Owl Carousel*/
+#owl-carousel .item{  margin: 3px 5px;  }
+#owl-carousel .item img{  display: block;  width: 100%;  height: auto;  }
+
+/*Footer*/
+footer .ucwords { margin-bottom: 2px; }
+footer .subscription{  padding: 25px 18px 0 0; }
+footer .subscription input[type='email'] {
+    font-size: 14px;
+}
+footer .lead { font-size: 16px; }
+
+footer .links{
+    padding: 0 0 40px 0;
+}
+
+footer .links h3{
+    font-weight: 700;
+}
+
+footer .links li>a{
+    color: #252525;
+    font-size: 16px;
+    line-height: 4vh;
+}
+
+footer .bottom{
+    padding: 20px 0;
+    color: #535353;
+    font-weight: 300;
+    background-color: #000000;
+    letter-spacing: 1px;
+}
+
+footer .list-items {
+    padding-left: 15px;
+
+}
+footer .list-items li a {  font-size: 14px;}
+footer .list-items li a i { margin-right: 5px; }
+
+@font-face {
+    font-family: 'opensans-regular';
+    src: url(font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'opensans-bold';
+    src: url(font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'opensans-light';
+    src: url(font/OpenSans-Light.ttf);
+}
+
+@media(max-width:768px) {
+    .navbar-nav li a {
+        padding: 15px 15px 15px 15px;
+    }
+}
