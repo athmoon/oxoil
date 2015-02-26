@@ -200,6 +200,9 @@ header #logo .logo-tag {
 .well .media-left { padding-right: 20px; }
 .well .media-object { border: 2px solid #4d5052; }
 
+.well-products { background-color: rgba(31,31,31,0.9); }
+.well-products-sidebar { margin-top: 412px; }
+
 .post-nav li { padding: 5px  15px;  transition: all .3s; }
 .post-nav li:hover a { color: white; }
 .post-nav li a { font-weight: bold; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); transition: all .3s;}
