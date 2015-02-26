@@ -29,7 +29,6 @@
 </head>
 <body>
 <!--Start Content-->
-<?php echo asset('/')?>
 
 <?php global $main_nav; ?>
 
