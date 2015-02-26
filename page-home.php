@@ -7,7 +7,7 @@
 ?>
 
 <section class="banner-section">
-	<img src="images/banner.jpg" alt="" class="img-responsive"/>
+	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
