@@ -1,81 +1,66 @@
 <?php
 	/*
-	Template Name: Product Page
+	Template Name: Products Page
 	Author: Asshurim Larita @ iBoostme..
 	*/
 	get_header();
 
-	get_template_part('breadcrumbs');
-	$products = get_field('products');
-	$featured_product_gallery = get_field('featured_product_gallery');
 ?>
-	<div id="featured-products"></div>
-	<section class="container featured-products">
-		<div class="box">
-			<h2 class="no-background void-top full-width"><span><?=get_the_title()?></span></h2>
-			<div class="space-md"></div>
+	<section class="main-section with-bg">
+		<div class="container">
+			<div class="row">
 
-			<?php
-			// check if the first product to be displayed is an oil product.
-			$isFirstProductAnOil = false;
-			if( $products[0]->post_parent == 122){
-				$isFirstProductAnOil = true;
-			}
-			?>
-
-			<?php
-			// display featuring products except for oil products.
-			if( !$isFirstProductAnOil ): ?>
-				<article class="row list  no-pad-sides">
-					<div class="pre-loader"><span><?=preloader()?></span></div>
-					<div class="ajax-content">
-						<?php if(has_post_thumbnail($products[0]->ID)): ?>
-						<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
-						<div class="summary col-md-7">
-							<?php else: ?>
-							<div class="summary col-md-12">
-								<?php endif; ?>
-								<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
-								<?=$products[0]->post_content?>
+				<div class="col-md-8">
+					<div class="well well-products well-main" style="min-height: 285px;">
+						<div class="row">
+							<div class="col-md-12"><h2 class="title">Oil Products <i class="fa fa-angle-double-right"></i> </h2></div>
+							<div class="col-sm-5" style="padding-right: 0">
+								<a href="#">
+									<img class="media-object img-responsive" src="http://lorempixel.com/250/180/">
+								</a>
+							</div>
+							<div class="col-sm-7" style="padding-left: 0">
+								<h2 class="title">Gasoline</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<div style="margin-top:30px">
+									<img src="images/certificate-icon.png" alt="" class="certificate"/>
+									<button class="btn btn-primary btn-blue">DOWNLOAD CERTIFICATE</button>
+								</div>
 							</div>
 						</div>
-				</article>
-			<?php endif; ?>
+						<div class="row">
+							<div class="col-md-12" style="margin-top: 50px;">
 
+								<div id="owl-carousel">
 
-			<div id="featured-list" class="owl-carousel featured-list">
-				<?php foreach($products as $i => $product) :
-					$isOilProducts = false;
-					if( $product->post_parent == 122){
-						$isOilProducts = true;
-					}
-					?>
-					<?php if($i > 0 ): //remove the first product ?>
-						<div class="text-center" style="padding-top: 1px;">
-							<?php if(has_post_thumbnail($products[0]->ID)): ?>
-								<figure style="background-image: url(<?=thumbnail_src($product->ID)?>)">
-									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
-								</figure>
-							<?php endif; ?>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
+									<div class="item"><img src="http://lorempixel.com/200/300/" alt="Owl Image"></div>
 
-							<?php
-							if( $isOilProducts ): ?>
-								<img src="<?=asset('images/certificate.png')?>" alt="<?=$product->post_title?> Certificate" class="img-responsive" style="width: 80%; margin: 0 auto;"/>
-								<h3 class="oil-products-header"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
-								<article class="small"> <?=$product->post_content;?> </article>
-							<?php else:?>
+								</div>
 
-								<h3><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
-								<article class="small"> <?=$product->post_excerp?> </article>
-							<?php endif;
-							?>
-
-
+							</div>
 						</div>
-					<?php endif;?>
-				<?php endforeach; ?>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="well well-products-sidebar">
+						<h2 class="title">News</h2>
+						<ul class="list-unstyled recent">
+							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
+							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
+						</ul>
+
+						<button class="btn btn-primary btn-blue btn-lg">READ MORE</button>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section>
 
+	</section>
 <?php get_footer();
