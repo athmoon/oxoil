@@ -16,7 +16,7 @@
 							<div class="col-md-12"><h2 class="title">Oil Products <i class="fa fa-angle-double-right"></i> </h2></div>
 							<div class="col-sm-5" >
 								<a href="#">
-									<img class="img-responsive" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
+									<img class="img-responsive preview-product" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
 								</a>
 							</div>
 							<div class="col-sm-7" style="padding-left: 0">

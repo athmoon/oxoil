@@ -36,7 +36,7 @@
 							<div class="row">
 								<div class="col-md-4" style="padding-right: 0">
 									<a href="#">
-										<img class="media-object img-responsive" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
+										<img class="preview-product img-responsive" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
 									</a>
 								</div>
 								<div class="col-md-8">

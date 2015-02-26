@@ -204,6 +204,10 @@ header #logo .logo-tag {
 .well-products-sidebar { margin-top: 412px; }
 .well-main { line-height: 1.8; font-size: 13px; }
 
+.preview-product{
+    border: 2px solid #4d5052;
+}
+
 .post-nav li { padding: 2px  15px;  transition: all .3s; }
 
 .post-nav li a { padding-left: 30px; font-size: 16px; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); transition: all .3s;}
