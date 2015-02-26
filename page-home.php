@@ -1,103 +1,86 @@
 <?php
 	/*
 	Template Name: HOME Page
-	Author: Asshurim Larita @ iBoostme..
+	Author: Juni Brosas @ iBoostme..
 	*/
 	get_header();
-
-
-	$posts = get_field('posts');
-	$highlights = get_field('highlights');
 ?>
 
-<!--Section: Spotlight-->
-<section id="spotlight">
+<section class="banner-section">
+	<img src="images/banner.jpg" alt="" class="img-responsive"/>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<!-- START CURRENCY RATES WIDGET -->
-				<div class="currencyWrapper">
-					<script type="text/javascript">
-						var tz = 'userset';
-						var w = '1140';
-						var i = '45';
-						var s = '1';
-						var mbg = 'ffffff';
-						var f = 'arial';
-						var fs = '10px';
-						var fc = '333333';
-						var bc = 'ffffff';
-						var bs = '0';
-						var vc = '999999';
-						var lc = '333333';
-						var lhc = '999999';
-					</script>
-					<!--<script type="text/javascript" src="http://www.currency-converter.org.uk/widget/CCUK-LRTICKER-1.php"></script>-->
+				<div class="ticker">
+                    <span class="">
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+                    </span>
 				</div>
-				<!-- END CURRENCY RATES WIDGET -->
-			</div>
-
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<?=do_shortcode('[rev_slider homeslider]')?>
 			</div>
 		</div>
 	</div>
 </section>
 
-
-<section id="blog" class="container">
-	<article class="row list">
-	<?php foreach($posts as $post): ?>
-
-		<div class="col-md-6">
-			<h2 class="single-line md">
-				<span><?=$post->post_title;?></span>
-			</h2>
-			<figure class="col-md-12 border-frame"><?=get_the_post_thumbnail($post->ID)?></figure>
-			<div class="summary col-md-12">
-				<?php echo substr( $post->post_excerpt, 0, 270).'...'; ?>
-				<div class="controls">
-					<a class="btn btn-danger" href="<?=get_permalink($post->ID)?>">READ MORE</a>
-				</div>
-			</div>
-		</div>
-
-	<?php endforeach; ?>
-
-	</article>
-
-
-
-</section>
-
-
-
-
-<!--Why-->
-<div id="why" class="inverse">
+<section class="main-section">
 	<div class="container">
-		<h2 class="single-line md void-top"><span>Why <b class="emp">Metagra?</b></span></h2>
+		<div class="row">
 
-		<div class="row items">
-
-		<?foreach($highlights as $highlight):?>
-
-			<div class="col-md-3 col-sm-6 text-center ">
-				<div class="feature">
-					<figure><img src="<?=$highlight['image']?>" class="img-responsive"/></figure>
-					<?=$highlight['text']?>
+			<div class="col-md-8">
+				<div class="well" style="min-height: 285px;">
+					<h2 class="title">Oil Products</h2>
+					<div class="row">
+						<div class="col-md-4" style="padding-right: 0;">
+							<ul class="list-unstyled post-nav">
+								<li><a href="#">Strong Cocktail</a></li>
+								<li><a href="#">Experience Collaborator</a></li>
+								<li><a href="#">Culture for Success</a></li>
+							</ul>
+						</div>
+						<div class="col-md-8">
+							<div class="media">
+								<div class="media-left">
+									<a href="#">
+										<img class="media-object" src="http://lorempixel.com/150/100/" alt="..." class="img-responsive">
+									</a>
+								</div>
+								<div class="media-body">
+									<!--<h4 class="media-heading">Media heading</h4>-->
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+			<div class="col-md-4">
+				<div class="well">
+					<h2 class="title">News</h2>
+					<ul class="list-unstyled recent">
+						<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
+						<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
+					</ul>
 
-		<?php endforeach; ?>
-
+					<button class="btn btn-primary btn-blue btn-lg">READ MORE</button>
+				</div>
+			</div>
 		</div>
-
 	</div>
 
-</div>
+</section>
 
 <?php get_footer(); ?>
 
