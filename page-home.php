@@ -7,29 +7,11 @@
 ?>
 
 <section class="banner-section">
-	<img src="images/banner.jpg" alt="" class="img-responsive"/>
+	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="ticker">
-                    <span class="">
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
-                    </span>
-				</div>
+				<?=include('widgets/widget-ticker.php')?>
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,19 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Admin
- * Date: 2/25/2015
- * Time: 7:42 PM
- */ 
+<div class="ticker">
+    <span class="">
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+        <span class="item">Ethanol <span class="stat"><i class="fa fa-arrow-up"></i>0.04 (2.12%)</span> </span>
+    </span>
+</div>
