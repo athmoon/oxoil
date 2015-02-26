@@ -204,12 +204,16 @@ header #logo .logo-tag {
 .well-products-sidebar { margin-top: 412px; }
 .well-main { line-height: 1.8; font-size: 13px; }
 
-.preview-product{
-    border: 2px solid #4d5052;
-}
-.news-title { }
-.post-nav li { padding: 2px  15px;  transition: all .3s; }
+.preview-product{  border: 2px solid #4d5052;  }
 
+.news-title { font-size: 65px; color: #df271f; font-weight: 700; }
+.news-date { color: #b1b9bc; }
+.news-item-title { font-size: 16px; }
+.news-item { padding: 0 0 20px 0; border-bottom: 1px dashed #fff; margin: 0 0 30px; }
+
+
+
+.post-nav li { padding: 2px  15px;  transition: all .3s; }
 .post-nav li a { padding-left: 30px; font-size: 16px; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); transition: all .3s;}
 .post-nav li:hover a, .post-nav .active a { color: white; }
 .post-nav li:hover, .post-nav .active { background-color: #4c4c4c; color: white !important; cursor: pointer }

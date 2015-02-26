@@ -19,10 +19,12 @@ get_header();
                             <h2 class="title news-title">Oil & Gas</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <?php for($i = 0; $i < 5; $i++):?>
-                                <div class="row news-item">
+                                <div class="row">
                                     <div class="col-md-12">
-                                        <div class="news-date"><i class="fa fa-clock-o"></i> 2 hours ago</div>
-                                        <div class="news-item-title">Transocean posts loss on important charge</div>
+                                        <div class="news-item">
+                                            <div class="news-date"><i class="fa fa-clock-o"></i> 2 hours ago</div>
+                                            <div class="news-item-title">Transocean posts loss on important charge</div>
+                                        </div>
                                     </div>
                                 </div>
                             <?php endfor ?>
