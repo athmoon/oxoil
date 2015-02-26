@@ -1,5 +1,4 @@
 
-<!--Footer-->
 <footer>
 	<!--footer bottom-->
 	<section class="bottom">
@@ -8,7 +7,6 @@
 				<div class="col-lg-4 col-sm-6">
 					<small>Copyright OX OIL TRADING © 2014. All Rights Reserved</small>
 					<p><i class="fa fa-phone-square"></i> Call us <span class="emp"><b>+123 4567 8901</b></span>
-						<br/> <small>Our phone lines are available 24/7</small>
 					</p>
 				</div>
 				<div class="col-lg-4 col-sm-6">
