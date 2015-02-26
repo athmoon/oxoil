@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<?=include('widgets/widget-ticker.php')?>
+				<?php include('widgets/widget-ticker.php')?>
 			</div>
 		</div>
 	</div>
