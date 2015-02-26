@@ -1,4 +1,4 @@
-piratesoftheweb
+Ox Oil
 ===============
 
-Pirates of the Web for a small project.
+Ox Oil is a Wordpress project for oil trading.
