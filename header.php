@@ -22,9 +22,9 @@
 	<?= link_css( 'font-awesome/css/font-awesome.min.css' ) ?>
 	<?= link_css( 'style.css' ) ?>
 
-	<?=link_js('js/owl-carousel/owl.carousel.css')?>
-	<?=link_js('js/owl-carousel/owl.theme.css')?>
-	<?=link_js('js/owl-carousel/owl.transitions.css')?>
+	<?=link_css('js/owl-carousel/owl.carousel.css')?>
+	<?=link_css('js/owl-carousel/owl.theme.css')?>
+	<?=link_css('js/owl-carousel/owl.transitions.css')?>
 
 	<?php wp_head(); ?>
 </head>
