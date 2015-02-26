@@ -14,8 +14,8 @@ get_header();
             <div class="col-md-8">
                 <div class="well well-products well-main" style="min-height: 285px;">
                     <div class="row">
-                        <div class="col-md-12"><h2 class="title">News <i class="fa fa-angle-double-right"></i> </h2></div>
-                        <div class="col-sm-12 news-list">
+                        <div class="col-md-2"><h2 class="title">News <i class="fa fa-angle-double-right"></i> </h2></div>
+                        <div class="col-sm-10 news-list">
                             <h2 class="title news-title">Oil & Gas</h2>
                             <?php for($i = 0; $i < 5; $i++):?>
                                 <div class="row">
