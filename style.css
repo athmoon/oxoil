@@ -24,10 +24,10 @@ body{
 }
 
 *{
-    font-family:'opensans-regular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 b{
-    font-family: 'opensans-bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /*Formats*/
 .italic{
@@ -185,8 +185,8 @@ header #logo .logo-tag {
 }
 
 /*Regulators*/
-.emp { font-style: italic; font-weight: bold; font-family: 'opensans-bold', sans-serif; }
-.btn-blue{ border-radius: 0; border-color: #202181; background-color: #333491; font-weight: bold; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.54); font-family: 'opensans-light', sans-serif; }
+.emp { font-style: italic; font-weight: bold; font-family: 'Open Sans', sans-serif;}
+.btn-blue{ border-radius: 0; border-color: #202181; background-color: #333491; font-weight: bold; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.54); font-family: 'Open Sans', sans-serif; }
 .btn-blue:hover { background-color: #3839a3; border-color: #202181; }
 .btn-lg { font-size: 14px; }
 
@@ -200,8 +200,9 @@ header #logo .logo-tag {
 .well .media-left { padding-right: 20px; }
 .well .media-object { border: 2px solid #4d5052; }
 
-.well-products { background-color: rgba(31,31,31,0.9); }
+.well-products { background-color: rgba(31,31,31,0.8); }
 .well-products-sidebar { margin-top: 412px; }
+.well-main { line-height: 1.8; font-size: 13px; }
 
 .post-nav li { padding: 5px  15px;  transition: all .3s; }
 .post-nav li:hover a { color: white; }
@@ -260,6 +261,8 @@ footer .list-items {
 }
 footer .list-items li a {  font-size: 14px;}
 footer .list-items li a i { margin-right: 5px; }
+
+
 
 @font-face {
     font-family: 'opensans-regular';
