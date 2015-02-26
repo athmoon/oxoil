@@ -29,7 +29,7 @@
 </head>
 <body>
 <!--Start Content-->
-
+<?php echo asset('/')?>
 
 <?php global $main_nav; ?>
 
@@ -39,7 +39,7 @@
 		<div class="row">
 			<div class="col-lg-4">
 				<a href="http://metagra-dmcc.ae">
-					<img class="img-responsive logo-img" src="images/logo.png" alt="Ox Oil Trading DMCC">
+					<img class="img-responsive logo-img" src="<?=asset('images/logo.png') ?>" alt="Ox Oil Trading DMCC">
 				</a>
 			</div>
 			<div class="col-lg-5 col-md-offset-3">
@@ -56,11 +56,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
 						<ul class="nav navbar-nav sm" id="main-menu">
-							<li class="active main-items"><a href="#"><img src="images/caret.png" alt="" class="nav-caret"/></i>Home</a></li>
-							<li class=" main-items"><a href="#"><img src="images/caret.png" alt="" class="nav-caret"/>About Us</a></li>
-							<li class=" main-items"><a href="#"><img src="images/caret.png" alt="" class="nav-caret"/>Products</a></li>
-							<li class=" main-items"><a href="#"><img src="images/caret.png" alt="" class="nav-caret"/>News</a></li>
-							<li class=" main-items"><a href="#"><img src="images/caret.png" alt="" class="nav-caret"/>Contact Us</a></li>
+							<li class="active main-items"><a href="#"><img src="<?=asset('images/caret.png') ?>" alt="" class="nav-caret"/></i>Home</a></li>
+							<li class=" main-items"><a href="#"><img src="<?=asset('images/caret.png') ?>" alt="" class="nav-caret"/>About Us</a></li>
+							<li class=" main-items"><a href="#"><img src="<?=asset('images/caret.png') ?>" alt="" class="nav-caret"/>Products</a></li>
+							<li class=" main-items"><a href="#"><img src="<?=asset('images/caret.png') ?>" alt="" class="nav-caret"/>News</a></li>
+							<li class=" main-items"><a href="#"><img src="<?=asset('images/caret.png') ?>" alt="" class="nav-caret"/>Contact Us</a></li>
 						</ul>
 					</div>
 				</nav>

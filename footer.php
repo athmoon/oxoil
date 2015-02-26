@@ -28,10 +28,6 @@
 <?=link_js('jquery/jquery.min.js')?>
 <?=link_js('bootstrap/js/bootstrap.min.js')?>
 <?=link_js('owl-carousel/owl.carousel.js')?>
-<?=link_js('js/jquery.smartmenus.js')?>
-<?=link_js('js/jquery.smartmenus.bootstrap.js')?>
-<?=link_js('js/featured.list.js')?>
-<?=link_js('js/main.js')?>
 <script type="text/javascript">
 	jQuery(function($) {
 		$('.ticker').jTicker({
