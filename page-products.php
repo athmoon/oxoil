@@ -16,14 +16,14 @@
 							<div class="col-md-12"><h2 class="title">Oil Products <i class="fa fa-angle-double-right"></i> </h2></div>
 							<div class="col-sm-5" style="padding-right: 0">
 								<a href="#">
-									<img class="media-object img-responsive" src="http://lorempixel.com/250/180/">
+									<img class="media-object img-responsive" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
 								</a>
 							</div>
 							<div class="col-sm-7" style="padding-left: 0">
 								<h2 class="title">Gasoline</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<div style="margin-top:30px">
-									<img src="images/certificate-icon.png" alt="" class="certificate"/>
+									<img src="<?=asset('images/certificate-icon.png')?>" alt="" class="certificate"/>
 									<button class="btn btn-primary btn-blue">DOWNLOAD CERTIFICATE</button>
 								</div>
 							</div>
