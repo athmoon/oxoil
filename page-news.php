@@ -33,14 +33,8 @@ get_header();
             </div>
             <div class="col-md-4">
                 <div class="well well-products-sidebar">
-                    <h2 class="title" style="margin: 0;">Commodity Index</h2>
+                    <h2 class="title" style="margin-bottom: 10px;">Commodity Index</h2>
                     <table class="table table-striped commodity-table">
-                        <tr>
-                            <td>Crude Oil</td>
-                            <td>50.55</td>
-                            <td><i class="fa fa-caret-down"></i></td>
-                            <td>-0.44</td>
-                        </tr>
                         <tr>
                             <td>Crude Oil</td>
                             <td>50.55</td>
