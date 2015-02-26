@@ -204,7 +204,7 @@ header #logo .logo-tag {
 .well-products-sidebar { margin-top: 412px; }
 .well-main { line-height: 1.8; font-size: 13px; }
 
-.preview-product{  border: 2px solid #4d5052;  }
+.preview-product{  border: 2px solid #4d5052; margin-bottom: 20px; }
 
 .commodity-table { width: 100%;
     max-width: 100%;

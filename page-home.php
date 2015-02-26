@@ -25,7 +25,7 @@
 				<div class="well well-main" style="min-height: 306px;">
 					<h2 class="title">Oil Products</h2>
 					<div class="row">
-						<div class="col-md-4 post-nav-container">
+						<div class="col-md-4 post-nav-container" style="padding-right: 0">
 							<ul class="list-unstyled post-nav">
 								<li><a href="#">Base Oil</a></li>
 								<li class="active"><a href="#">Fuel with Sulfur</a></li>
@@ -34,7 +34,7 @@
 						</div>
 						<div class="col-md-8" style="padding-left: 0; padding-right: 0">
 							<div class="row">
-								<div class="col-md-4" style="padding-right: 0">
+								<div class="col-md-4" >
 									<a href="#">
 										<img class="preview-product img-responsive" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
 									</a>
