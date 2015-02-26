@@ -32,7 +32,7 @@ get_header();
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well well-products-sidebar">
+                <div class="well well-products-sidebar" style="padding: 15px;">
                     <h2 class="title" style="margin-bottom: 10px;">Commodity Index</h2>
                     <table class="table table-striped commodity-table">
                         <tr>

@@ -208,7 +208,7 @@ header #logo .logo-tag {
 
 .commodity-table { width: 100%;
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     background-color: #fff;
     color: #3f322c;
     text-shadow: none;
