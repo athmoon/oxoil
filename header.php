@@ -41,7 +41,7 @@
 					<img class="img-responsive logo-img" src="<?=asset('images/logo.png') ?>" alt="Ox Oil Trading DMCC">
 				</a>
 			</div>
-			<div class="col-lg-5 col-md-offset-3">
+			<div class="col-lg-6 col-md-offset-2">
 				<nav class="text-center">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
