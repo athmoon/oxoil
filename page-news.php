@@ -33,11 +33,45 @@ get_header();
             </div>
             <div class="col-md-4">
                 <div class="well well-products-sidebar">
-                    <h2 class="title">News</h2>
-                    <ul class="list-unstyled recent">
-                        <li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
-                        <li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
-                    </ul>
+                    <h2 class="title">Commodity Index</h2>
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Crude Oil</td>
+                            <td>50.55</td>
+                            <td><i class="fa fa-caret-down"></i></td>
+                            <td>-0.44</td>
+                        </tr>
+                        <tr>
+                            <td>Crude Oil</td>
+                            <td>50.55</td>
+                            <td><i class="fa fa-caret-down"></i></td>
+                            <td>-0.44</td>
+                        </tr>
+                        <tr>
+                            <td>Crude Oil</td>
+                            <td>50.55</td>
+                            <td><i class="fa fa-caret-down"></i></td>
+                            <td>-0.44</td>
+                        </tr>
+                        <tr>
+                            <td>Crude Oil</td>
+                            <td>50.55</td>
+                            <td><i class="fa fa-caret-down"></i></td>
+                            <td>-0.44</td>
+                        </tr>
+                        <tr>
+                            <td>Crude Oil</td>
+                            <td>50.55</td>
+                            <td><i class="fa fa-caret-down"></i></td>
+                            <td>-0.44</td>
+                        </tr>
+                        <tr>
+                            <td>Crude Oil</td>
+                            <td>50.55</td>
+                            <td><i class="fa fa-caret-down"></i></td>
+                            <td>-0.44</td>
+                        </tr>
+                    </table>
 
                     <button class="btn btn-primary btn-blue btn-lg">READ MORE</button>
                 </div>
