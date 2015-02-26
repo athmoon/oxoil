@@ -7,7 +7,7 @@
 ?>
 
 <section class="banner-section">
-	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
+	<img src="images/banner.jpg" alt="" class="img-responsive"/>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -40,26 +40,26 @@
 		<div class="row">
 
 			<div class="col-md-8">
-				<div class="well" style="min-height: 285px;">
+				<div class="well well-main" style="min-height: 306px;">
 					<h2 class="title">Oil Products</h2>
 					<div class="row">
-						<div class="col-md-4" style="padding-right: 0;">
+						<div class="col-md-4 post-nav-container">
 							<ul class="list-unstyled post-nav">
-								<li><a href="#">Strong Cocktail</a></li>
-								<li><a href="#">Experience Collaborator</a></li>
-								<li><a href="#">Culture for Success</a></li>
+								<li><a href="#">Base Oil</a></li>
+								<li class="active"><a href="#">Fuel with Sulfur</a></li>
+								<li><a href="#">Gasoline</a></li>
 							</ul>
 						</div>
-						<div class="col-md-8">
-							<div class="media">
-								<div class="media-left">
+						<div class="col-md-8" style="padding-left: 0; padding-right: 0">
+							<div class="row">
+								<div class="col-md-4" style="padding-right: 0">
 									<a href="#">
-										<img class="media-object" src="http://lorempixel.com/150/100/" alt="..." class="img-responsive">
+										<img class="media-object img-responsive" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
 									</a>
 								</div>
-								<div class="media-body">
+								<div class="col-md-8">
 									<!--<h4 class="media-heading">Media heading</h4>-->
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 								</div>
 							</div>
 						</div>
