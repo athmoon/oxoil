@@ -27,7 +27,7 @@
 					<div class="row" ng-controller="FeatureProductsController">
 						<div class="col-md-4 post-nav-container" style="padding-right: 0">
 							<ul class="list-unstyled post-nav">
-								<li ng-repeat="product in featureProducts">
+								<li ng-repeat="product in featureProducts" ng-class="currentProduct.id == product.id ? 'active' : '' ">
 									<a style="cursor: pointer" ng-click="featureSelect( $index )">{{ product.title }}</a>
 								</li>
 								<!--<li><a style="cursor: pointer" ng-click="featureSelect(0)">Base Oil</a></li>
