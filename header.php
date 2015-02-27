@@ -5,7 +5,7 @@
 <html class="ie ie8" <?php language_attributes(); ?> ng-app="oxoilApp">
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8) ]><!-->
-<html <?php language_attributes(); ?> ng-app="oxoilApp">
+<html <?php language_attributes(); ?> ng-app="oxoilApp" ng-cloak>
 
 <!--<![endif]-->
 <head>
