@@ -39,7 +39,7 @@
 							<div class="row">
 								<div class="col-md-4" >
 									<a href="#">
-										<img class="preview-product img-responsive" ng-src="currentProduct.photo">
+										<img class="preview-product img-responsive" ng-src="currentProduct.photo" src="{{ currentProduct.photo }}">
 									</a>
 								</div>
 								<div class="col-md-8">
