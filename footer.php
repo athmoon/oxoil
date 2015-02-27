@@ -44,6 +44,7 @@
 			itemsDesktopSmall : [979,3]
 
 		});
+		$('.wprss-time-ago:before').html('<i class="fa fa-clock-o"></i>');
 	});
 </script>
 
