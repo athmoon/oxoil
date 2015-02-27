@@ -34,8 +34,8 @@ function getQuote($symbol)
 }
 
 //trace( getQuote("CLG12.ENYM") ); //this is the stock symbol
-trace( getQuote("CLJ15%2NYM") ); //this is the stock symbol
-
+//trace( getQuote("CLJ15%2NYM") ); //this is the stock symbol
+trace("http://download.finance.yahoo.com/d/quotes.csv?s=%40%5EDJI,GOOG&f=nsl1op");
 ?>
 
 <?php get_footer(); ?>
