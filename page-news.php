@@ -18,7 +18,7 @@ get_header();
                         <div class="col-sm-9 news-list" style="padding-left: 0;">
                             <h2 class="title news-title">Oil & Gas</h2>
 
-                            <?php do_shortcode('[wp-rss-aggregator]') ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator]') ?>
 
                             <?php for($i = 0; $i < 5; $i++):?>
                                 <div class="row">
