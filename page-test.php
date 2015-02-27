@@ -33,7 +33,7 @@ function getQuote($symbol)
 }
 
 //trace( getQuote("CLG12.ENYM") ); //this is the stock symbol
-trace( getQuote("CLJ15%2NYM ") ); //this is the stock symbol
+trace( getQuote("CLJ15%2NYM") ); //this is the stock symbol
 
 ?>
 
