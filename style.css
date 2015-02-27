@@ -217,8 +217,12 @@ header #logo .logo-tag {
 .news-title { font-size: 60px !important; color: #df271f; font-weight: 700 !important; text-shadow: none; }
 .news-date { color: #b1b9bc; }
 .news-item-title { font-size: 16px; color: #e7e7e7; }
-.news-item { padding: 0 0 20px 0; border-bottom: 1px dashed #6e7679; margin: 0 0 25px; }
+.news-item, .feed-item { padding: 0 0 20px 0; border-bottom: 1px dashed #6e7679; margin: 0 0 25px; }
 
+.rss-aggregator { list-style: none; }
+.rss-aggregator .feed-item {  padding: 0 0 20px 0; border-bottom: 1px dashed #6e7679; margin: 0 0 25px; }
+.rss-aggregator a { font-size: 16px; color: #e7e7e7; }
+.rss-aggregator .wprss-time-ago { color: #b1b9bc; }
 
 
 .post-nav li { padding: 2px  15px;  transition: all .3s; }
