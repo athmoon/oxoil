@@ -12,7 +12,7 @@ function getQuote($symbol)
 {
 
     /*$symbol  = urlencode( trim( substr(strip_tags($symbol),0,7) ) );*/
-    $yahooCSV = "http://finance.yahoo.com/d/quotes.csv?s=$symbol&f=sl1d1t1c1ohgvpnbaejkr&o=t";
+    $yahooCSV = "http://finance.yahoo.com/d/quotes.csv?s=%40%$symbol&f=sl1d1t1c1ohgvpnbaejkr&o=t";
 
     $csv = fopen($yahooCSV,"r");
 
