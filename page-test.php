@@ -34,7 +34,8 @@ function getQuote($symbol)
 }
 
 //trace( getQuote("CLG12.ENYM") ); //this is the stock symbol
-trace( urlencode("CLJ15.NYM") );
+$symbol = "CLG12%2ENYM";
+trace( urlencode( trim( substr(strip_tags($symbol),0,7) ) ) );
 //trace( getQuote("CLJ15%2NYM") ); //this is the stock symbol
 //trace(fopen( "http://download.finance.yahoo.com/d/quotes.csv?s=%40%5EDJI,GOOG&f=nsl1op" ,"r"));
 ?>
