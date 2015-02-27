@@ -12,7 +12,7 @@ function getQuote($symbol)
 {
 
     $symbol  = urlencode( trim( substr(strip_tags($symbol),0,7) ) );
-    $yahooCSV = "http://download.finance.yahoo.com/d/quotes.csv?s=%40%5EDJI,GOOG&f=nsl1op";
+    $yahooCSV = "http://download.finance.yahoo.com/d/quotes.csv?s=%40%5EDJI,GOOG&f=sl1d1t1c1ohgvpnbaejkr";
     //$yahooCSV = "http://finance.yahoo.com/d/quotes.csv?s=%40%$symbol&f=sl1d1t1c1ohgvpnbaejkr&o=t";
 
     $csv = fopen($yahooCSV,"r");
@@ -34,8 +34,8 @@ function getQuote($symbol)
 }
 
 //trace( getQuote("CLG12.ENYM") ); //this is the stock symbol
-//trace( getQuote("CLJ15%2NYM") ); //this is the stock symbol
-trace(fopen( "http://download.finance.yahoo.com/d/quotes.csv?s=%40%5EDJI,GOOG&f=nsl1op" ,"r"));
+trace( getQuote("CLJ15%2NYM") ); //this is the stock symbol
+//trace(fopen( "http://download.finance.yahoo.com/d/quotes.csv?s=%40%5EDJI,GOOG&f=nsl1op" ,"r"));
 ?>
 
 <?php get_footer(); ?>
