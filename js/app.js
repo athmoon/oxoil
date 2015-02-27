@@ -14,10 +14,8 @@ app.controller('FeatureProductsController', function( $scope ){
     $scope.isCurrentlyActive = $scope.currentProduct.id ==  $scope.featureProducts[0].id ? true : false;
 
     $scope.featureSelect = function( id ){
-        $scope.currentProduct = $scope.featureProducts[id - 1];
+        $scope.currentProduct = $scope.featureProducts[id];
         console.log(id);
-
-
     }
 
 });
