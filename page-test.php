@@ -11,7 +11,7 @@ get_header();
 function getQuote($symbol)
 {
 
-    $symbol  = urlencode( trim( substr(strip_tags($symbol),0,7) ) );
+    /*$symbol  = urlencode( trim( substr(strip_tags($symbol),0,7) ) );*/
     $yahooCSV = "http://finance.yahoo.com/d/quotes.csv?s=$symbol&f=sl1d1t1c1ohgvpnbaejkr&o=t";
 
     $csv = fopen($yahooCSV,"r");
