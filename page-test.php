@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: News Page
+Template Name: Test Page
 Author: Juni Brosas @ iBoostme..
 */
 get_header();
