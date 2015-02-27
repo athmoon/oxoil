@@ -46,7 +46,7 @@
 		});
 		$('.wprss-time-ago').prepend('<i class="fa fa-clock-o"></i> ');
 		$('.nav-previous a').prepend('<i class="fa fa-angle-double-left"></i> ');
-		$('.nav-next a').prepend('<i class="fa fa-angle-double-right"></i> ');
+		$('.nav-next a').append('<i class="fa fa-angle-double-right"></i> ');
 	});
 </script>
 
