@@ -44,7 +44,7 @@
 								</div>
 								<div class="col-md-8">
 									<!--<h4 class="media-heading">Media heading</h4>-->
-									<p>{{ currentProduct.description }}</p>
+									<p></p>
 								</div>
 							</div>
 						</div>
