@@ -37,12 +37,12 @@
 						</div>
 						<div class="col-md-8" style="padding-left: 0; padding-right: 0">
 							<div class="row">
-								<div class="col-md-4" >
+								<div class="col-md-5" >
 									<a href="#">
 										<img class="preview-product img-responsive" ng-src="currentProduct.photo" src="{{ currentProduct.photo }}">
 									</a>
 								</div>
-								<div class="col-md-8">
+								<div class="col-md-7">
 									<!--<h4 class="media-heading">Media heading</h4>-->
 									<p>{{ currentProduct.description }}</p>
 								</div>
