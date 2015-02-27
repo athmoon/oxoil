@@ -40,33 +40,27 @@ get_header();
                     <table class="table table-striped commodity-table">
                         <tr>
                             <td>Crude Oil</td>
-                            <td>50.55</td>
-                            <td><i class="fa fa-caret-down"></i></td>
-                            <td>-0.44</td>
+                            <td>0.87</td>
+                            <td><i class="fa fa-caret-up"></i></td>
+                            <td>1.81%</td>
                         </tr>
                         <tr>
-                            <td>Crude Oil</td>
-                            <td>50.55</td>
-                            <td><i class="fa fa-caret-down"></i></td>
-                            <td>-0.44</td>
+                            <td>Heating Oil</td>
+                            <td>0.03</td>
+                            <td><i class="fa fa-caret-up"></i></td>
+                            <td>1.40%</td>
                         </tr>
                         <tr>
-                            <td>Crude Oil</td>
-                            <td>50.55</td>
-                            <td><i class="fa fa-caret-down"></i></td>
-                            <td>-0.44</td>
+                            <td>RBOB Gasoline</td>
+                            <td>0.02</td>
+                            <td><i class="fa fa-caret-up"></i></td>
+                            <td>1.08%</td>
                         </tr>
                         <tr>
-                            <td>Crude Oil</td>
-                            <td>50.55</td>
-                            <td><i class="fa fa-caret-down"></i></td>
-                            <td>-0.44</td>
-                        </tr>
-                        <tr>
-                            <td>Crude Oil</td>
-                            <td>50.55</td>
-                            <td><i class="fa fa-caret-down"></i></td>
-                            <td>-0.44</td>
+                            <td>Natural Gas</td>
+                            <td>0.01 </td>
+                            <td><i class="fa fa-caret-up"></i></td>
+                            <td>0.19%</td>
                         </tr>
                     </table>
                 </div>
