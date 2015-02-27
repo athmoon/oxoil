@@ -28,7 +28,7 @@
 						<div class="col-md-4 post-nav-container" style="padding-right: 0">
 							<ul class="list-unstyled post-nav">
 								<li ng-repeat="product in featureProducts">
-									<a style="cursor: pointer" ng-click="featureSelect(product.id)">{{ product.title }}</a>
+									<a style="cursor: pointer" ng-click="featureSelect(product.id=)">{{ product.title }}</a>
 								</li>
 								<!--<li><a style="cursor: pointer" ng-click="featureSelect(0)">Base Oil</a></li>
 								<li class="active"><a style="cursor: pointer" ng-click="featureSelect(1)">Fuel with Sulfur</a></li>
@@ -39,12 +39,12 @@
 							<div class="row">
 								<div class="col-md-4" >
 									<a href="#">
-										<img class="preview-product img-responsive" src="http://www.severnfuels.co.uk/images/gallery/road_forecourt_key_fuels.jpg">
+										<img class="preview-product img-responsive" ng-src="currentProduct.photo">
 									</a>
 								</div>
 								<div class="col-md-8">
 									<!--<h4 class="media-heading">Media heading</h4>-->
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>{{ currentProduct.description }}</p>
 								</div>
 							</div>
 						</div>
