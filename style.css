@@ -222,8 +222,9 @@ header #logo .logo-tag {
 .rss-aggregator { list-style: none; }
 .rss-aggregator .feed-item {  padding: 0 0 20px 0; border-bottom: 1px dashed #6e7679; margin: 0 0 25px; }
 .rss-aggregator a { font-size: 16px; color: #e7e7e7; }
-.rss-aggregator .wprss-time-ago { color: #b1b9bc; }
-
+.wprss-time-ago { color: #b1b9bc; }
+.wprss-time-ago:before { content: '<i class="fa fa-clock-o"></i>'; }
+.rss-aggregator .nav-links a { color: #e7e7e7 !important; }
 
 .post-nav li { padding: 2px  15px;  transition: all .3s; }
 .post-nav li a { padding-left: 30px; font-size: 16px; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); transition: all .3s;}

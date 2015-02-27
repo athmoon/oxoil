@@ -20,7 +20,7 @@ get_header();
 
                             <?php echo do_shortcode('[wp-rss-aggregator]') ?>
 
-                            <?php for($i = 0; $i < 5; $i++):?>
+                            <?php /*for($i = 0; $i < 5; $i++):*/?><!--
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="news-item">
@@ -29,7 +29,7 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                            <?php endfor ?>
+                            --><?php /*endfor */?>
                         </div>
                     </div>
                 </div>
