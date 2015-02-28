@@ -4,6 +4,7 @@
 	require_once( 'inc/hooks.php' );
 	require_once( 'inc/dimox_breadcrumbs.php' );
 	require_once( 'inc/posts_action.php' );
+	require_once( 'inc/yahoo_finance.php' );
 
 	/**
 	 * Register our sidebars and widgetized areas.
@@ -53,6 +54,7 @@
 	 * Initianilized Function
 	 * */
 	add_action( 'init', 'my_script_enqueuer' );
+
 	function my_script_enqueuer()
 	{
 
