@@ -16,13 +16,13 @@ foreach($metalSymbols as $symbol){
 //trace($metalQuotes);
 
 //crude oil, gasoline, fuel, lpg
-$energySymbols = ['UCO', 'UGA', 'UGA', 'FUEL', 'LPG'];
+$energySymbols = ['UCO', 'UGA', 'FUEL', 'LPG'];
 $energyQuotes = array();
 foreach( $energySymbols  as $symbol ){
     $energyQuotes[] = yfGetQuote($symbol);
 }
 
-$quoteData = yfGetQuote('UGA');
+$quoteData = yfGetQuote('FUEL');
 trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol ?>
 
 <?php get_footer(); ?>
