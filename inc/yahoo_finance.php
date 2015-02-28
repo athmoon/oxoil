@@ -27,7 +27,7 @@ function yfGetPercent($lastPrice, $previousClose){
     // Divide this result by the previous close.
 
 
-    trace($answer);
+    trace('asdasd');
     die();
 
     $answer = $answer / $previousClose;
