@@ -22,7 +22,7 @@ foreach( $energySymbols  as $symbol ){
     $energyQuotes[] = yfGetQuote($symbol);
 }
 
-$quoteData = yfGetQuote('UCO');
+$quoteData = yfGetQuote('UGA');
 trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol ?>
 
 <?php get_footer(); ?>
