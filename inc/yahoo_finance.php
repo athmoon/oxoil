@@ -26,10 +26,12 @@ function yfGetPercent($lastPrice, $previousClose){
 
     // Divide this result by the previous close.
 
-    $answer = $answer / $previousClose;
 
     trace($answer);
     die();
+
+    $answer = $answer / $previousClose;
+
 
     // Multiply this result by 100 to calculate the stock’s net change percentage.
     $answer = $answer * 100;
