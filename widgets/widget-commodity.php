@@ -1,11 +1,19 @@
 
 <table class="table table-striped commodity-table">
-    <tr>
-        <td>Crude Oil</td>
-        <td>0.87</td>
-        <td><i class="fa fa-caret-up"></i></td>
-        <td>1.81%</td>
-    </tr>
+    <?php
+    //crude oil, gasoline, fuel, lpg
+    $energyQuotes = getEnergyQuotes();
+    foreach( $energyQuotes  as $i => $quote ){
+        echo '<tr>';
+            echo '<td>'.$quote['descriptiveName'].'</td>';
+            echo '<td>'.$quote['last'].'</td>';
+            echo '<td><i class="fa fa-caret-'.$quote['arrowStatus'].'"></i></td>';
+            echo '<td>'.str_replace('-','',$quote['currentPercent']).'%</td>';
+        echo '</tr>';
+    }
+    ?>
+
+
     <tr>
         <td>Heating Oil</td>
         <td>0.03</td>
