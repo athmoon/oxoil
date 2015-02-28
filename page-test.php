@@ -24,8 +24,6 @@ foreach( $energySymbols  as $symbol ){
 
 trace($energyQuotes);
 
-//trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol
-
-?>
+//trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol ?>
 
 <?php get_footer(); ?>
