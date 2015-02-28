@@ -37,32 +37,9 @@ get_header();
             <div class="col-md-4">
                 <div class="well well-products-sidebar" style="padding: 15px;">
                     <h2 class="title" style="margin-bottom: 10px;">Commodity Index</h2>
-                    <table class="table table-striped commodity-table">
-                        <tr>
-                            <td>Crude Oil</td>
-                            <td>0.87</td>
-                            <td><i class="fa fa-caret-up"></i></td>
-                            <td>1.81%</td>
-                        </tr>
-                        <tr>
-                            <td>Heating Oil</td>
-                            <td>0.03</td>
-                            <td><i class="fa fa-caret-up"></i></td>
-                            <td>1.40%</td>
-                        </tr>
-                        <tr>
-                            <td>RBOB Gasoline</td>
-                            <td>0.02</td>
-                            <td><i class="fa fa-caret-up"></i></td>
-                            <td>1.08%</td>
-                        </tr>
-                        <tr>
-                            <td>Natural Gas</td>
-                            <td>0.01 </td>
-                            <td><i class="fa fa-caret-up"></i></td>
-                            <td>0.19%</td>
-                        </tr>
-                    </table>
+
+                    <?php include('widgets/widget-commodity.php') ?>
+
                 </div>
             </div>
         </div>
