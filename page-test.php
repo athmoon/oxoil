@@ -22,16 +22,7 @@ foreach( $energySymbols  as $symbol ){
     $energyQuotes[] = yfGetQuote($symbol);
 }
 
-foreach( $energySymbols  as $i => $symbol ){
-    /*$percent = yfGetPercent($symbol['previousClose'], $symbol['last']);
-    $status = $percent < 0 ? 'down' : 'up';
-    $last = $symbol['last'];*/
-
-    $energyQuotes[] = yfGetQuote($symbol);
-
-    //echo '<span class="item">'.$energyNames[$i].' <span class="stat"><i class="fa fa-arrow-'.$status.'"></i>'.$last.' ('.str_replace('-','',$percent).'%)</span> </span>';
-}
-
-//trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol ?>
+$quoteData = yfGetQuote('SCCO');
+trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol ?>
 
 <?php get_footer(); ?>
