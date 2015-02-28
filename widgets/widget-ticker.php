@@ -6,13 +6,16 @@
         $energySymbols = ['UCO', 'UGA', 'FUEL', 'LPG'];
         $energyQuotes = array();
         foreach( $energySymbols  as $i => $symbol ){
-            $percent = yfGetPercent($symbol['previousClose'], $symbol['last']);
+            $quote = yfGetQuote($quote);
+
+            $name = $energyNames[$i];
+            $percent = yfGetPercent($quote['previousClose'], $quote['last']);
             $status = $percent < 0 ? 'down' : 'up';
-            $last = $symbol['last'];
+            $last = $quote['last'];
 
-            $energyQuotes[] = yfGetQuote($symbol);
+            $energyQuotes[] = $quote;
 
-            echo '<span class="item">'.$energyNames.' <span class="stat"><i class="fa fa-arrow-'.$status.'"></i>'.$last.' ('.str_replace('-','',$percent).'%)</span> </span>';
+            echo '<span class="item">'.$name.' <span class="stat"><i class="fa fa-arrow-'.$status.'"></i>'.$last.' ('.str_replace('-','',$percent).'%)</span> </span>';
         }
         ?>
 
