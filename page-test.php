@@ -33,6 +33,6 @@ foreach( $energySymbols  as $i => $symbol ){
     echo '<span class="item">'.$name.' <span class="stat"><i class="fa fa-arrow-'.$status.'"></i>'.$last.' ('.str_replace('-','',$percent).'%)</span> </span>';
 }
 
-trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol ?>
+//trace( yfGetPercent($quoteData['previousClose'], $quoteData['last']) ); //this is the stock symbol ?>
 
 <?php get_footer(); ?>
