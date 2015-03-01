@@ -27,7 +27,7 @@
 								<div style="margin-top:30px">
 									<img src="<?=asset('images/certificate-icon.png')?>" alt="" class="certificate"/>
 									<?php
-									$certificate = the_field('', $products[0]->ID);
+									$certificate = the_field('oil_certification_link', $products[0]->ID);
 									trace($certificate);
 
 									?>
