@@ -2,7 +2,7 @@ var base_url = '';
 
 $(document).ready(function(){
 
-    base_url = $('[name=base_ur]').prop('content');
+    base_url = $('[name="base_ur"]').prop('content');
 
     $(".featured-list").owlCarousel({
 
