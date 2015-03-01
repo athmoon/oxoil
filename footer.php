@@ -27,8 +27,10 @@
 <?=link_js('bootstrap/js/bootstrap.min.js')?>
 <?=link_js('js/jquery.jticker.js')?>
 <?=link_js('js/owl-carousel/owl.carousel.min.js')?>
+<?=link_js('js/featured.list.js')?>
 <?=link_js('js/angular.js')?>
 <?=link_js('js/app.js')?>
+
 
 <script type="text/javascript">
 	jQuery(function($) {
