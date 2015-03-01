@@ -2,8 +2,10 @@ var base_url = '';
 
 $(document).ready(function(){
 
-    base_url = $('#action_url').data('url');
-    console.log(base_url);
+    //base_url = $('#base_url').data('baseurl');
+
+    base_url = $('[name=base_ur]').prop('content');
+
     $(".featured-list").owlCarousel({
 
         autoPlay: 3000,
@@ -18,7 +20,7 @@ $(document).ready(function(){
 
     });
 
-
+    console.log(base_url);
     $(".featured-list figure a").click(function(){
 
         var post_id = $(this).data('id');
@@ -31,8 +33,8 @@ $(document).ready(function(){
             action: 'get_post_content',
             id: post_id
         }, function(response){
-            console.log(response);
 
+            console.log(response);
             $(".pre-loader").delay(100).fadeOut(400);
             $('#featured-list').parent().find('.ajax-content').html(response);
 
