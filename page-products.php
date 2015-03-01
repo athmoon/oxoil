@@ -51,15 +51,18 @@
 				<div class="col-md-4">
 					<div class="well well-products-sidebar">
 						<h2 class="title">News</h2>
-
-						<?php echo do_shortcode('[wp-rss-aggregator limit="5"]'); ?>
+						<style>
+							.nav-links { display: none; }
+							.wprss-feed-meta { display: none; }
+						</style>
+						<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
 
 						<!--<ul class="list-unstyled recent">
 							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
 							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
 						</ul>-->
 
-						<button class="btn btn-primary btn-blue btn-lg">READ MORE</button>
+						<a href="<?=get_permalink( 23 )?>" class="btn btn-primary btn-blue btn-lg">READ MORE</a>
 					</div>
 				</div>
 			</div>
