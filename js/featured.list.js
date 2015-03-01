@@ -31,9 +31,8 @@ $(document).ready(function(){
             action: 'get_post_content',
             id: post_id
         }, function(response){
-
-
             console.log(response);
+
             $(".pre-loader").delay(100).fadeOut(400);
             $('#featured-list').parent().find('.ajax-content').html(response);
 
