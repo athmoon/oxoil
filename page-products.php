@@ -8,6 +8,7 @@
 
 	//trace($products);
 ?>
+	<div id="featured-products"></div>
 	<section class="main-section with-bg">
 		<div class="container">
 			<div class="row">
@@ -35,7 +36,7 @@
 						<div class="row">
 							<div class="col-md-12" style="margin-top: 50px;">
 								<div >
-									<div id="owl-carousel" >
+									<div id="owl-carousel" class="featured-list">
 										<?php foreach($products as $i => $product) :
 											$isOilProducts = false;
 											if( $product->post_parent == 122){ $isOilProducts = true; } ?>

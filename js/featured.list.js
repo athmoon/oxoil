@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     base_url = $('[name=base_ur]').prop('content');
 
-    $("#featured-list").owlCarousel({
+    $(".featured-list").owlCarousel({
 
         autoPlay: 3000,
         items : 4
@@ -19,7 +19,7 @@ $(document).ready(function(){
     });
 
 
-    $("#featured-list figure a").click(function(){
+    $(".featured-list figure a").click(function(){
 
         var post_id = $(this).data('id');
 
