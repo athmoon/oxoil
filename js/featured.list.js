@@ -27,13 +27,13 @@ $(document).ready(function(){
 
         scrollTo('#featured-products');
 
-
-        console.log(post_id);
         $.post(base_url,{
             action: 'get_post_content',
             id: post_id
         }, function(response){
 
+
+            console.log(response);
             $(".pre-loader").delay(100).fadeOut(400);
             $('#featured-list').parent().find('.ajax-content').html(response);
 
