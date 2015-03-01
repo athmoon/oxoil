@@ -27,8 +27,7 @@
 								<div style="margin-top:30px">
 									<img src="<?=asset('images/certificate-icon.png')?>" alt="" class="certificate"/>
 
-									<?php $certificate = the_field('oil_certification_link', $products[0]->ID); ?>
-									<a href="<?php echo $certificate ?>" class="btn btn-primary btn-blue link">DOWNLOAD CERTIFICATE</a>
+									<a href="<?php echo the_field('oil_certification_link', $products[0]->ID) ?>" class="btn btn-primary btn-blue link">DOWNLOAD CERTIFICATE</a>
 
 								</div>
 							</div>
