@@ -13,7 +13,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="<?php bloginfo( 'charset' ); ?>"/>
-	<meta name="base_url" content="<?= site_url() ?>" id="base_url" data-baseurl="<?=site_url() ?>"/>
+	<meta name="base_url" content="<?= site_url() ?>" />
 	<title><?php bloginfo( 'name' ); ?>  <?php wp_title(); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 

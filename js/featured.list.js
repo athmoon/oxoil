@@ -2,8 +2,8 @@ var base_url = '';
 
 $(document).ready(function(){
 
-    base_url = $('#base_url').data('baseurl');
-
+    base_url = $('#action_url').data('url');
+    console.log(base_url);
     $(".featured-list").owlCarousel({
 
         autoPlay: 3000,

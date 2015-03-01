@@ -9,6 +9,7 @@
 	//trace($products);
 ?>
 	<div id="featured-products"></div>
+	<div id="action_url" data-url="<?=admin_url('admin-ajax.php'); ?>"></div>
 	<section class="main-section with-bg">
 		<div class="container">
 			<div class="row">
