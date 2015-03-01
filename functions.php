@@ -65,3 +65,9 @@
 		}
 
 	}
+
+	add_action('ajax', 'ajaxMethods');
+	function ajaxMethods(){
+		echo 'working';
+		die();
+	}

@@ -257,6 +257,52 @@ header #logo .logo-tag {
 #owl-carousel .item img{  display: block;  width: 100%;  height: auto;  }
 #owl-carousel .title { margin-top: 5px; }
 
+/*Preloader*/
+.bubblingG {
+    text-align: center;
+    width:48px;
+    height:30px;
+    margin: 0 auto;
+}
+
+.bubblingG span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    margin: 15px auto;
+    background: #000000;
+    -moz-border-radius: 30px;
+    -moz-animation: bubblingG 0.6s infinite alternate;
+    -webkit-border-radius: 30px;
+    -webkit-animation: bubblingG 0.6s infinite alternate;
+    -o-border-radius: 30px;
+    -o-animation: bubblingG 0.6s infinite alternate;
+    -ms-border-radius: 30px;
+    -ms-animation: bubblingG 0.6s infinite alternate;
+}
+
+#bubblingG_1 {
+    -moz-animation-delay: 0.36s;
+    -webkit-animation-delay: 0.36s;
+    -o-animation-delay: 0.36s;
+    -ms-animation-delay: 0.36s;
+}
+
+#bubblingG_2 {
+    -moz-animation-delay: 0.18s;
+    -webkit-animation-delay: 0.18s;
+    -o-animation-delay: 0.18s;
+    -ms-animation-delay: 0.18s;
+}
+
+#bubblingG_3 {
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+}
+
 /*Footer*/
 footer .ucwords { margin-bottom: 2px; }
 footer .subscription{  padding: 25px 18px 0 0; }
