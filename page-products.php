@@ -34,9 +34,8 @@
 						</div>
 						<div class="row">
 							<div class="col-md-12" style="margin-top: 50px;">
-
-								<div id="owl-carousel" >
-									<div id="featured-list" class="featured-list">
+								<div id="featured-list" class="featured-list">
+									<div id="owl-carousel" >
 										<?php foreach($products as $i => $product) :
 											$isOilProducts = false;
 											if( $product->post_parent == 122){ $isOilProducts = true; } ?>
