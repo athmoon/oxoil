@@ -21,7 +21,9 @@
 							<div class="col-md-12"><div class="pre-loader"><span><?=preloader()?></span></div></div>
 							<div class="ajax-content">
 
-								<?php include('ajax-product.php') ?>
+								<?php
+								$post = $products[0];
+								include('ajax-product.php') ?>
 
 							</div>
 						</div>
