@@ -6,5 +6,6 @@
 		$post     = get_post( $post_id );
 		$template = get_field( 'template', $post_id );
 
-		include('ajax-default.php');
+		echo 'asdasd';
+		//include('ajax-default.php');
 	}
