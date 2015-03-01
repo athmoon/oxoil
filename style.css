@@ -302,6 +302,16 @@ header #logo .logo-tag {
     -o-animation-delay: 0s;
     -ms-animation-delay: 0s;
 }
+.pre-loader{
+    bottom: -5px;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    background: #FFF;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
 
 /*Footer*/
 footer .ucwords { margin-bottom: 2px; }
