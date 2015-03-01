@@ -302,12 +302,82 @@ header #logo .logo-tag {
     -o-animation-delay: 0s;
     -ms-animation-delay: 0s;
 }
+@-moz-keyframes bubblingG {
+    0% {
+        width: 6px;
+        height: 6px;
+        background-color:#000000;
+        -moz-transform: translateY(0);
+    }
+
+    100% {
+        width: 14px;
+        height: 14px;
+        background-color:#FFFFFF;
+        -moz-transform: translateY(-13px);
+    }
+
+}
+
+@-webkit-keyframes bubblingG {
+    0% {
+        width: 6px;
+        height: 6px;
+        background-color:#000000;
+        -webkit-transform: translateY(0);
+    }
+
+    100% {
+        width: 14px;
+        height: 14px;
+        background-color:#FFFFFF;
+        -webkit-transform: translateY(-13px);
+    }
+
+}
+
+@-o-keyframes bubblingG {
+    0% {
+        width: 6px;
+        height: 6px;
+        background-color:#000000;
+        -o-transform: translateY(0);
+    }
+
+    100% {
+        width: 14px;
+        height: 14px;
+        background-color:#FFFFFF;
+        -o-transform: translateY(-13px);
+    }
+
+}
+
+@-ms-keyframes bubblingG {
+    0% {
+        width: 6px;
+        height: 6px;
+        background-color:#000000;
+        -ms-transform: translateY(0);
+    }
+
+    100% {
+        width: 14px;
+        height: 14px;
+        background-color:#FFFFFF;
+        -ms-transform: translateY(-13px);
+    }
+
+}
+
+
+
 .pre-loader{
     bottom: -5px;
     top: -5px;
     left: -5px;
     right: -5px;
-    background: #FFF;
+    background: #1f1f1f;
     position: absolute;
     z-index: 1;
     display: none;
@@ -374,3 +444,4 @@ footer .list-items li a i { margin-right: 5px; }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
     display: none !important;
 }
+
