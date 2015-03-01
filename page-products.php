@@ -19,7 +19,7 @@
 						<div class="row">
 							<div class="col-md-12"><h2 class="title">Oil Products <i class="fa fa-angle-double-right"></i> </h2></div>
 							<div class="ajax-content">
-								<div class="pre-loader"><span><?=preloader()?></span></div>
+
 								<?php
 									$post = $products[0];
 									include('ajax-product.php')
