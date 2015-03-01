@@ -18,7 +18,7 @@
 					<div class="well well-products well-main" style="min-height: 285px;">
 						<div class="row">
 							<div class="col-md-12"><h2 class="title">Oil Products <i class="fa fa-angle-double-right"></i> </h2></div>
-							<!--<div class="col-md-12"><div class="pre-loader"><span><?/*=preloader()*/?></span></div></div>-->
+							<div class="col-md-12"><div class="pre-loader"><span><?=preloader()?></span></div></div>
 							<div class="ajax-content">
 								<?php
 									$post = $products[0];
