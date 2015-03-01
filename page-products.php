@@ -52,7 +52,7 @@
 					<div class="well well-products-sidebar">
 						<h2 class="title">News</h2>
 
-						<?php echo do_shortcode('[wp-rss-aggregator exclude="27" limit="5"]'); ?>
+						<?php echo do_shortcode('[wp-rss-aggregator limit="5"]'); ?>
 
 						<!--<ul class="list-unstyled recent">
 							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
