@@ -255,6 +255,7 @@ header #logo .logo-tag {
 /*Owl Carousel*/
 #owl-carousel .item{  margin: 3px 5px;  }
 #owl-carousel .item img{  display: block;  width: 100%;  height: auto;  }
+#owl-carousel .title { margin-top: 5px; }
 
 /*Footer*/
 footer .ucwords { margin-bottom: 2px; }
