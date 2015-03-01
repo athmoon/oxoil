@@ -36,7 +36,7 @@ $(document).ready(function(){
 
             console.log(response);
             $(".pre-loader").delay(100).fadeOut(400);
-            $('#featured-list').parent().find('.ajax-content').html(response);
+            $('.ajax-content').html(response);
 
         });
 
