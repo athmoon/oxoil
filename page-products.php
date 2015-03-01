@@ -6,7 +6,7 @@
 	get_header();
 	$products = get_field('products');
 
-	trace($products);
+	//trace($products);
 ?>
 	<section class="main-section with-bg">
 		<div class="container">
