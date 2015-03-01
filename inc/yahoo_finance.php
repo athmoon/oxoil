@@ -55,32 +55,17 @@ function yfFormatQuotes($names, $symbols ){
 }
 
 function getEnergyQuotes(){
-    //crude oil, gasoline, fuel, lpg
-
-    $names = ['Crude Oil', 'Gasoline', 'Fuel', 'LPG'];
+    // crude oil, gasoline, fuel, lpg
+    $energyNames = ['Crude Oil', 'Gasoline', 'Fuel', 'LPG'];
     $energySymbols = ['UCO', 'UGA', 'FUEL', 'LPG'];
 
-    return yfFormatQuotes($names, $energySymbols);
+    return yfFormatQuotes( $energyNames, $energySymbols );
 }
 
-
 function getMetalQuotes(){
-    //crude oil, gasoline, fuel, lpg
-    $names = ['Crude Oil', 'Gasoline', 'Fuel', 'LPG'];
-    $energySymbols = ['UCO', 'UGA', 'FUEL', 'LPG'];
-    $energyQuotes = array();
-    foreach( $energySymbols  as $i => $symbol ){
-        $quote = yfGetQuote($symbol);
+    // gold, copper, silver, platinum, palladium, zinc, aluminum
+    $metalNames = ['Gold', 'Copper', 'Silver', 'Platinum', 'Palladium', 'Zinc', 'Aluminum'];
+    $metalSymbols = ['GLD', 'SCCO', 'SLV', 'PLG', 'PAL', 'CZN.TO', 'CENX'];
 
-        $name = $names[$i];
-        $percent = yfGetPercent($quote['previousClose'], $quote['last']);
-
-        $quote['descriptiveName'] = $name;
-        $quote['currentPercent'] = $percent;
-        $quote['arrowStatus'] = $percent < 0 ? 'down' : 'up';
-
-        $energyQuotes[] = $quote;
-    }
-
-    return $energyQuotes;
+    return yfFormatQuotes($metalNames, $metalSymbols);
 }

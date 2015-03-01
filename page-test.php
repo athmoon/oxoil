@@ -6,8 +6,7 @@ Author: Juni Brosas @ iBoostme..
 get_header();
 ?>
 <?php
-//gold, copper, silver, platinum, palladium, zinc, aluminum
-$metalSymbols = ['GLD', 'SCCO', 'SLV', 'PLG', 'PAL', 'CZN.TO', 'CENX'];
+
 $metalQuotes = array();
 foreach($metalSymbols as $symbol){
     $metalQuotes[] = yfGetQuote($symbol);
