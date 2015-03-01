@@ -54,6 +54,14 @@
 						<style>
 							.nav-links { display: none; }
 							.wprss-feed-meta { display: none; }
+							.rss-aggregator .feed-item {
+								padding: 0 0 10px 0;
+								margin: 0 0 10px;
+							}
+							.wprss-time-ago { font-size: 12px; }
+							.well .title {
+								margin: 0 0 10px 0;
+							}
 						</style>
 						<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
 
@@ -62,7 +70,7 @@
 							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
 						</ul>-->
 
-						<a href="<?=get_permalink( 23 )?>" class="btn btn-primary btn-blue btn-lg">READ MORE</a>
+						<a href="<?=get_permalink( 23 )?>" class="btn btn-primary btn-blue btn-lg link">READ MORE</a>
 					</div>
 				</div>
 			</div>
