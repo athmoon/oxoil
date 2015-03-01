@@ -1,4 +1,3 @@
-<?php echo $post->ID; ?>
 <div class="col-sm-5" >
 	<a href="<?php echo get_page_link($post->ID)?>">
 		<?=get_the_post_thumbnail($post->ID, '', ['class' => 'img-responsive'])?>
