@@ -382,6 +382,14 @@ header #logo .logo-tag {
     z-index: 1;
     display: none;
 }
+.pre-loader>span{
+    position: absolute;
+    left: 0;
+    top: 46%;
+    text-align: center;
+    right: 0;
+    font-weight: 600;
+}
 
 /*Footer*/
 footer .ucwords { margin-bottom: 2px; }
