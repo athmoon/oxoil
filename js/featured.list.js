@@ -3,7 +3,7 @@ var base_url = '';
 $(document).ready(function(){
 
     base_url = $('[name="base_ur"]').prop('content');
-    console.log(base_url);
+    console.log($('#base_url').data());
 
     $(".featured-list").owlCarousel({
 
