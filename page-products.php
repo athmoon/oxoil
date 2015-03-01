@@ -35,19 +35,21 @@
 						<div class="row">
 							<div class="col-md-12" style="margin-top: 50px;">
 
-								<div id="owl-carousel">
-									<?php foreach($products as $i => $product) :
-										$isOilProducts = false;
-										if( $product->post_parent == 122){ $isOilProducts = true; } ?>
-										<?php if($i > 0 ): //remove the first product ?>
-										<div class="item">
-											<a href="<?php echo get_page_link($product->ID)?>" class="link">
-												<img src="http://lorempixel.com/200/300/" alt="<?=$product->post_title?> Certificate" class="img-responsive">
-												<h4 class="title"><?=$product->post_title?></h4>
-											</a>
-										</div>
-										<?php endif;?>
-									<?php endforeach; ?>
+								<div id="owl-carousel" >
+									<div id="featured-list" class="featured-list">
+										<?php foreach($products as $i => $product) :
+											$isOilProducts = false;
+											if( $product->post_parent == 122){ $isOilProducts = true; } ?>
+											<?php if($i > 0 ): //remove the first product ?>
+											<div class="item">
+												<a data-id="<?=$product->ID?>" href="<?php /*echo get_page_link($product->ID)*/?>#" class="link">
+													<img src="http://lorempixel.com/200/300/" alt="<?=$product->post_title?> Certificate" class="img-responsive">
+													<h4 class="title"><?=$product->post_title?></h4>
+												</a>
+											</div>
+											<?php endif;?>
+										<?php endforeach; ?>
+									</div>
 								</div>
 
 							</div>
