@@ -3,6 +3,7 @@ var base_url = '';
 $(document).ready(function(){
 
     base_url = $('[name="base_ur"]').prop('content');
+    console.log(base_url);
 
     $(".featured-list").owlCarousel({
 
@@ -27,7 +28,7 @@ $(document).ready(function(){
 
         scrollTo('#featured-products');
 
-        console.log(base_url);
+
 
         $.post(base_url,{
             action: 'get_post_content',
