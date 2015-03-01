@@ -41,7 +41,7 @@
 	<div class="container" id="logo">
 		<div class="row">
 			<div class="col-lg-4">
-				<a href="http://metagra-dmcc.ae">
+				<a href="<?= get_site_url() ?>">
 					<img class="img-responsive logo-img" src="<?=asset('images/logo.png') ?>" alt="Ox Oil Trading DMCC">
 				</a>
 			</div>
