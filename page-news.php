@@ -6,7 +6,13 @@ Author: Juni Brosas @ iBoostme..
 get_header();
 ?>
 
-
+<style>
+    @media (min-width: 1200px)
+        .well-products-sidebar {
+            margin-top: 627px;
+        }
+    }
+</style>
 <section class="main-section with-bg">
     <div class="container">
 
