@@ -9,17 +9,7 @@ get_header();
 
 <section class="main-section with-bg">
     <div class="container">
-        <style>
-            .row {
-                display: table;
-            }
 
-            [class*="col-"] {
-                float: none;
-                display: table-cell;
-                vertical-align: top;
-            }
-        </style>
         <div class="row">
 
             <div class="col-md-8">
