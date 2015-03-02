@@ -15,7 +15,7 @@ get_header();
                         <div class="text-center">
                             <h2 class="no-background">This page is under refining process</h2>
                             <div class="small-border"></div>
-                            <div style="font-size: 14px; margin-top: 20px">We'll be ready soon with a new tailored page.</div>
+                            <div style="margin-top: 20px">We'll be ready soon with a new tailored page.</div>
                         </div>
                     </div>
                 </div>
