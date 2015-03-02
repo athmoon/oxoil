@@ -458,12 +458,14 @@ footer .list-items li a i { margin-right: 5px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .well.well-products.well-main { height: 200px; }
+    .well.well-products.well-main { height: 560px; }
+    .well-products-sidebar { margin-top: 0;  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-
+    .well.well-products.well-main { height: 560px; }
+    .well-products-sidebar { margin-top: 0;  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
