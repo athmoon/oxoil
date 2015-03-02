@@ -73,11 +73,11 @@ h2.no-background, h2.single-line {
     overflow: hidden;
     min-height: 40px;
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
 }
 .small-border {
     border-bottom: 5px dashed #A0A0A0;
-    margin: 16px auto;
+    margin: 0 auto;
     width: 70px;
 }
 h2.no-background span, h2.single-line span {
