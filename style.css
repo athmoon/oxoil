@@ -460,6 +460,7 @@ footer .list-items li a i { margin-right: 5px; }
 @media (max-width: 768px) {
     .well.well-products.well-main { height: 560px; }
     .well-products-sidebar { margin-top: 0;  }
+    .well .title {  margin: 20px 0 30px 0; }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -472,3 +473,4 @@ footer .list-items li a i { margin-right: 5px; }
 @media (max-width: 1200px) {
     .well.well-products.well-main { height: 783px; }
 }
+.well.well-products.well-main { height: 783px; }
