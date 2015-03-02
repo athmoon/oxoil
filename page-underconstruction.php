@@ -13,9 +13,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="well well-products well-main" style="min-height: 400px;">
                         <div class="text-center">
-                            <h2 class="no-background">This page is under refining process</h2>
-                            <div class="small-border"></div>
-                            <div style="margin-top: 20px">We'll be ready soon with a new tailored page.</div>
+                            <p>Page under construction</p>
                         </div>
                     </div>
                 </div>

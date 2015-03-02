@@ -47,15 +47,15 @@
 				</div>
 				<div class="col-md-4">
 					<div class="well well-products-sidebar short-feeds">
-						<h2 class="title">News</h2>
+						<h2 class="title"><a href="<?=get_permalink( 23 )?>" class="link">News</a></h2>
 						<style>
 
 						</style>
 
-						<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
+						<?php echo do_shortcode('[wp-rss-aggregator limit="4"]'); ?>
 
 
-						<a href="<?=get_permalink( 23 )?>" class="btn btn-primary btn-blue btn-lg link">READ MORE</a>
+						<!--<a href="<?/*=get_permalink( 23 )*/?>" class="btn btn-primary btn-blue btn-lg link">READ MORE</a>-->
 					</div>
 				</div>
 			</div>
