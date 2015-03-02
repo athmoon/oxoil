@@ -10,7 +10,7 @@
 					</p>
 				</div>
 				<div class="col-lg-4 col-sm-6">
-					<?php the_widget( $widget, $instance, $args ); ?>
+					<?php the_widget( 'Subscription Widget' ); ?>
 					<!--<div class="input-group sexy-form">
 						<input type="text" class="form-control" placeholder="Enter Email Address">
                         <span class="input-group-btn">
