@@ -20,7 +20,7 @@
 					</div>
 
 					<div class="well well-products well-main" style="min-height: 285px;">
-						<div class="row">
+						<div class="row" style="display: block; position: relative;">
 							<div class="col-md-12"><h2 class="title">Oil Products <i class="fa fa-angle-double-right"></i> </h2></div>
 							<div class="pre-loader"><span><?=preloader()?></span></div>
 							<div class="ajax-content">
