@@ -14,7 +14,7 @@ get_header();
                     <div class="well well-products well-main" style="min-height: 400px;">
                         <div class="text-center">
                             <h2>This page is under refining process</h2>
-                            <span>We'll be ready soon with a new tailored page.</span>
+                            <div style="font-size: 16px; margin-top: 20px">We'll be ready soon with a new tailored page.</div>
                         </div>
                     </div>
                 </div>
