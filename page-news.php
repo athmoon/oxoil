@@ -7,7 +7,7 @@ get_header();
 ?>
 
 <style>
-    @media (min-width: 1200px)
+    @media (min-width: 1200px){
         .well-products-sidebar {
             margin-top: 627px !important;
         }
