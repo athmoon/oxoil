@@ -1,24 +1,16 @@
 <?php
 	/*
 	Template Name: Products Page
-	Author: Asshurim Larita @ iBoostme..
+	Author: Juni Brosas
 	*/
 	get_header();
 	$products = get_field('products');
-
-	//trace($products);
 ?>
 	<div id="featured-products"></div>
-
 	<section class="main-section with-bg">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-md-8">
-					<div class="col-md-12">
-
-					</div>
-
 					<div class="well well-products well-main" style="min-height: 285px;">
 						<div class="row">
 							<div class="col-md-12"><h2 class="title">Oil Products <i class="fa fa-angle-double-right"></i> </h2></div>
@@ -42,7 +34,7 @@
 											<?php if($i > 0 ): //remove the first product ?>
 											<figure class="item">
 												<a data-id="<?=$product->ID?>" href="<?php /*echo get_page_link($product->ID)*/?>#" class="link">
-													<img src="http://lorempixel.com/200/300/" alt="<?=$product->post_title?> Certificate" class="img-responsive">
+													<!--<img src="http://lorempixel.com/200/300/" alt="<?/*=$product->post_title*/?> Certificate" class="img-responsive">-->
 													<h4 class="title"><?=$product->post_title?></h4>
 												</a>
 											</figure>

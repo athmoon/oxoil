@@ -29,7 +29,7 @@ $(document).ready(function(){
 
         $(".pre-loader").fadeIn(500);
 
-        scrollTo('#featured-products');
+        /*scrollTo('#featured-products');*/
 
         $.post(base_url,{
             action: 'get_post_content',
@@ -46,11 +46,11 @@ $(document).ready(function(){
     });
 
 
-    $('a[href*=#]:not([href=#])').click(function() {
+    /*$('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             scrollTo(this.hash);
         }
-    });
+    });*/
 
 
 
