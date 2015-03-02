@@ -72,9 +72,10 @@ h2.no-background, h2.single-line {
     position: relative;
     overflow: hidden;
     min-height: 40px;
-    color: #444444;
+    color: #fff;
     font-size: 26px;
 }
+.small-border { border-bottom: 1px dashed #716E6E; }
 h2.no-background span, h2.single-line span {
     display: inline-block;
     vertical-align: baseline;

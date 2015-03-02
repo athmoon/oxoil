@@ -9,11 +9,12 @@
 					<div class="box text-center">
 						<!--Heading-->
 						<h2 class="no-background void-top full-width" style="margin-left: -16px; margin-right: -16px;">
-							<span><b>Page Not Found </b>Error 404</h2>
+							Page Not Found</h2>
+						<div class="small-border"></div>
 						<div class="space-md"></div>
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
-								<p>The page you requested could not be found, either contact your webmaster or try again. Use your browsers <b>Back</b> button to navigate to the page you have prevously come from</p>
+								<p style="font-size: 14px;">The page you requested could not be found, either contact your webmaster or try again. Use your browsers <b>Back</b> button to navigate to the page you have prevously come from</p>
 								<div class="space-lg"></div>
 								<div class="text-center margin" style="margin-top: 40px;">
 									<a href="<?=get_site_url()?>" class="btn btn-primary btn-blue link"><i class="icon-home icon-white"></i> Take Me Home</a>
