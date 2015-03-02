@@ -22,7 +22,7 @@
 		<div class="row">
 
 			<div class="col-md-8">
-				<div class="well well-main" style="min-height: 306px;">
+				<div class="well well-main" style="min-height: 390px;">
 					<h2 class="title">Oil Products</h2>
 					<div class="row" ng-controller="FeatureProductsController">
 						<div class="col-md-4 post-nav-container" style="padding-right: 0">
@@ -59,7 +59,7 @@
 					<h2 class="title">News</h2>
 					<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
 
-					<button class="btn btn-primary btn-blue btn-lg">READ MORE</button>
+					<a href="<?=get_permalink( 23 )?>" class="btn btn-primary btn-blue btn-lg link">READ MORE</a>
 				</div>
 			</div>
 		</div>
