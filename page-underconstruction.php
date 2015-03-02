@@ -13,7 +13,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="well well-products well-main" style="min-height: 400px;">
                         <div class="text-center">
-                            <p>Page under construction</p>
+                            <p style="margin-top: 50px;">Page under construction</p>
                         </div>
                     </div>
                 </div>

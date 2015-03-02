@@ -232,6 +232,7 @@ header #logo .logo-tag {
 .wprss-time-ago { color: #b1b9bc; }
 .nav-links a { color: #e7e7e7 !important; }
 
+.short-feeds { padding: 22px 30px; }
 .short-feeds .nav-links { display: none; }
 .short-feeds .wprss-feed-meta { display: none; }
 .short-feeds .rss-aggregator .feed-item {
