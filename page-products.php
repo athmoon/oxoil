@@ -34,7 +34,7 @@
 											<?php if($i > 0 ): //remove the first product ?>
 											<figure class="item">
 												<a data-id="<?=$product->ID?>" href="<?php /*echo get_page_link($product->ID)*/?>#" class="link">
-													<?=get_the_post_thumbnail($post->ID, '', ['class' => 'img-responsive'])?>
+													<?=get_the_post_thumbnail($product->ID, '', ['class' => 'img-responsive'])?>
 													<h4 class="title"><?=$product->post_title?></h4>
 												</a>
 											</figure>
