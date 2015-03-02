@@ -10,12 +10,13 @@
 					</p>
 				</div>
 				<div class="col-lg-4 col-sm-6">
-					<div class="input-group sexy-form">
+					<?php the_widget( $widget, $instance, $args ); ?>
+					<!--<div class="input-group sexy-form">
 						<input type="text" class="form-control" placeholder="Enter Email Address">
                         <span class="input-group-btn">
                             <button class="btn btn-primary btn-blue" type="button">SUBSCRIBE</button>
                         </span>
-					</div><!-- /input-group -->
+					</div>--><!-- /input-group -->
 				</div>
 			</div>
 
