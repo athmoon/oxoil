@@ -485,7 +485,7 @@ footer .list-items li a i { margin-right: 5px; }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .well-products-sidebar { margin-top: 412px;  }
+    .well-products-sidebar { margin-top: 395px; }
     .well .title {  margin: 0 0 30px 0; }
 }
 
