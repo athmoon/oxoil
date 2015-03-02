@@ -18,18 +18,8 @@ get_header();
                         <div class="col-sm-9 news-list" style="padding-left: 0;">
                             <h2 class="title news-title">Rigzone Original News & Analysis</h2>
 
-                            <?php echo do_shortcode('[wp-rss-aggregator]') ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator limit="3"]') ?>
 
-                            <?php /*for($i = 0; $i < 5; $i++):*/?><!--
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="news-item">
-                                            <div class="news-date"><i class="fa fa-clock-o"></i> 2 hours ago</div>
-                                            <div class="news-item-title">Transocean posts loss on important charge</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            --><?php /*endfor */?>
                         </div>
                     </div>
                 </div>

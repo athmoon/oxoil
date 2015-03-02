@@ -67,12 +67,9 @@
 							}
 							.rss-aggregator { margin-bottom: 30px; }
 						</style>
+
 						<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
 
-						<!--<ul class="list-unstyled recent">
-							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
-							<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
-						</ul>-->
 
 						<a href="<?=get_permalink( 23 )?>" class="btn btn-primary btn-blue btn-lg link">READ MORE</a>
 					</div>
