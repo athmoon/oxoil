@@ -75,7 +75,11 @@ h2.no-background, h2.single-line {
     color: #fff;
     font-size: 26px;
 }
-.small-border { border-bottom: 1px dashed #716E6E; }
+.small-border {
+    border-bottom: 5px dashed #716E6E;
+    margin: 16px auto;
+    width: 70px;
+}
 h2.no-background span, h2.single-line span {
     display: inline-block;
     vertical-align: baseline;
