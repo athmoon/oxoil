@@ -56,8 +56,8 @@ function yfFormatQuotes($names, $symbols ){
 
 function getEnergyQuotes(){
     // crude oil, gasoline, fuel, lpg
-    $energyNames = ['Crude Oil', 'Gasoline', 'Fuel', 'LPG', 'Gas', 'NAPHTHA'];
-    $energySymbols = ['UCO', 'UGA', 'FUEL', 'LPG', 'XOP', 'NFEX-L.TA'];
+    $energyNames = ['Crude Oil', 'Gasoline', 'Fuel', 'LPG', 'Gas', 'NAPHTHA', 'Petroleum'];
+    $energySymbols = ['UCO', 'UGA', 'FUEL', 'LPG', 'XOP', 'NFEX-L.TA', 'GDP'];
 
     return yfFormatQuotes( $energyNames, $energySymbols );
 }
