@@ -83,6 +83,7 @@ h2.no-background span, h2.single-line span {
     *vertical-align: auto;
     position: relative;
     padding: 0 20px;
+    color: rgb(194, 153, 153);
 }
 h2.no-background span:before,
 h2.no-background span:after {
