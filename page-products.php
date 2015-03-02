@@ -28,10 +28,8 @@
 							<div class="col-md-12" style="margin-top: 50px;">
 								<div >
 									<div id="owl-carousel" class="featured-list">
-										<?php foreach($products as $i => $product) :
-											$isOilProducts = false;
-											if( $product->post_parent == 122){ $isOilProducts = true; } ?>
-											<?php if($i > 0 ): //remove the first product ?>
+										<?php foreach($products as $i => $product) : ?>
+											<?php if(/*$i > 0*/ true ): //remove the first product ?>
 											<figure class="item">
 												<a data-id="<?=$product->ID?>" href="<?php /*echo get_page_link($product->ID)*/?>#" class="link">
 													<?=get_the_post_thumbnail($product->ID, '', ['class' => 'img-responsive'])?>
