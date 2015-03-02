@@ -23,6 +23,8 @@ $(document).ready(function(){
     console.log(base_url);
     $(".featured-list figure a").click(function(){
 
+        $('.ajax-content').fadeOut(400);
+
         var post_id = $(this).data('id');
 
         $(".pre-loader").fadeIn(500);
