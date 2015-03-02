@@ -36,7 +36,7 @@ $(document).ready(function(){
 
             console.log(response);
             $(".pre-loader").delay(100).fadeOut(400);
-            $('.ajax-content').html(response);
+            $('.ajax-content').fadeOut(400).html(response).fadeIn(400);
 
         });
 

@@ -377,7 +377,7 @@ header #logo .logo-tag {
     top: -5px;
     left: -5px;
     right: -5px;
-    background: #1f1f1f;
+    /*background: #1f1f1f;*/
     position: absolute;
     z-index: 1;
     display: none;
