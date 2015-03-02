@@ -29,6 +29,7 @@
 <?=link_js('js/owl-carousel/owl.carousel.min.js')?>
 <?=link_js('js/featured.list.js')?>
 <?=link_js('js/angular.js')?>
+<?=link_js('js/main.js')?>
 <?=link_js('js/app.js')?>
 
 
