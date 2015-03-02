@@ -18,7 +18,7 @@ get_header();
                         <div class="col-sm-9 news-list" style="padding-left: 0;">
                             <h2 class="title news-title">Rigzone Original News & Analysis</h2>
 
-                            <?php echo do_shortcode('[wp-rss-aggregator limit="3"]') ?>
+                            <?php echo do_shortcode('[wp-rss-aggregator limit="5"]') ?>
 
                         </div>
                     </div>
