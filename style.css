@@ -202,7 +202,7 @@ header #logo .logo-tag {
 .well .media-object { border: 2px solid #4d5052; }
 
 .well-products { background-color: rgba(31,31,31,0.8); }
-.well-products-sidebar { margin-top: 412px; }
+.well-products-sidebar { margin-top: 0; }
 .well-main { line-height: 1.8; font-size: 13px; }
 
 .preview-product{  border: 2px solid #4d5052; margin-bottom: 20px; }
@@ -459,18 +459,18 @@ footer .list-items li a i { margin-right: 5px; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .well.well-products.well-main { height: 560px; }
-    .well-products-sidebar { margin-top: 0;  }
     .well .title {  margin: 20px 0 30px 0; }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
     .well.well-products.well-main { height: 560px; }
-    .well-products-sidebar { margin-top: 0;  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .well.well-products.well-main { height: 783px; }
+    .well-products-sidebar { margin-top: 412px;  }
 }
 .well.well-products.well-main { height: 783px; }
