@@ -48,24 +48,10 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="well well-products-sidebar">
+					<div class="well well-products-sidebar short-feeds">
 						<h2 class="title">News</h2>
 						<style>
-							.nav-links { display: none; }
-							.wprss-feed-meta { display: none; }
-							.rss-aggregator .feed-item {
-								padding: 0 0 10px 0;
-								margin: 0 0 10px;
-							}
-							.wprss-time-ago { font-size: 12px; }
-							.well-products-sidebar .title {
-								margin: 0 0 10px 0;
-							}
-							.rss-aggregator a {
-								font-size: 13px;
-								color: #e7e7e7;
-							}
-							.rss-aggregator { margin-bottom: 30px; }
+
 						</style>
 
 						<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>

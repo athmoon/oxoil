@@ -55,12 +55,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="well">
+				<div class="well short-feeds">
 					<h2 class="title">News</h2>
-					<ul class="list-unstyled recent">
-						<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
-						<li><a href="#">January 6, 2015</a><p>Fuel Oil will increase next year</p></li>
-					</ul>
+					<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
 
 					<button class="btn btn-primary btn-blue btn-lg">READ MORE</button>
 				</div>
