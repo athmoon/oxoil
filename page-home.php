@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="well short-feeds">
+				<div class="well short-feeds scroll-well">
 					<h2 class="title"><a href="<?=get_permalink( 23 )?>" class="link">News</a></h2>
 					<?php echo do_shortcode('[wp-rss-aggregator limit="4"]'); ?>
 

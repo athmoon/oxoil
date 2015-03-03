@@ -248,6 +248,10 @@ header #logo .logo-tag {
     color: #e7e7e7;
 }
 .short-feeds .rss-aggregator { margin-bottom: 30px; }
+.scroll-well {
+    height: 390px;
+    overflow-y: scroll;
+}
 
 .post-nav li { padding: 2px  15px;  transition: all .3s; }
 .post-nav li a { padding-left: 30px; font-size: 16px; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); transition: all .3s;}
