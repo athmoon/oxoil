@@ -15,7 +15,7 @@ get_header();
                             <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=9&center=25.2048%2C55.2708&key=AIzaSyDtnQ-CYgsu1CGmG8RSpPra8tcw09lsG3o"></iframe>
                         </div>
 
-                        <div class="text-center">
+                        <div class="text-center" style="margin-top:20px;">
 
                             <?php echo do_shortcode('[cscf-contact-form]') ?>
 
