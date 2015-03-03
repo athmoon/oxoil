@@ -21,7 +21,7 @@
 									<input class="es_textbox_class form-control" name="es_txt_email" id="es_txt_email" onkeypress="if(event.keyCode==13) es_submit_page('<?=$base_url ?>')" value="" type="email" placeholder="Enter your email address">
 								</span>
 								<span class="input-group-btn">
-									<button class="btn btn-primary btn-blue" name="es_txt_button" id="es_txt_button"  onclick="return es_submit_page('<?=$base_url ?>')" type="submit">SUBSCRIBE</button>
+									<button class="btn btn-primary btn-blue btn-side" name="es_txt_button" id="es_txt_button"  onclick="return es_submit_page('<?=$base_url ?>')" type="submit">SUBSCRIBE</button>
 								</span>
 							</div>
 							<input name="es_txt_name" id="es_txt_name" value="" type="hidden">

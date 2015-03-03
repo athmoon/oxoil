@@ -270,7 +270,7 @@ header #logo .logo-tag {
 /*Forms*/
 .sexy-form {  }
 .sexy-form .form-control{  border-radius: 0; }
-.sexy-form .btn { border-radius: 0; border-left: 3px solid #06076a; }
+.sexy-form .btn-side { border-radius: 0; border-left: 3px solid #06076a; }
 
 .certificate { position: relative; top: 3px; left: 2px; }
 .read-more-btn { font-size: 12px; color: white !important; }
