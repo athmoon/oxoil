@@ -55,9 +55,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="well short-feeds scrollbar" id="style-1">
-					<div class="" >
-						<h2 class="title"><a href="<?=get_permalink( 23 )?>" class="link">News</a></h2>
+				<div class="well short-feeds" >
+					<h2 class="title"><a href="<?=get_permalink( 23 )?>" class="link">News</a></h2>
+					<div scrollbar" id="style-1">
 						<?php echo do_shortcode('[wp-rss-aggregator limit="8"]'); ?>
 					</div>
 				</div>
