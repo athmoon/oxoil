@@ -13,9 +13,9 @@ get_header();
                     <div class="well well-products well-main" style="min-height: 400px;">
                         <div class="text-center">
 
-                            <?php /*echo do_shortcode('[contact-form-7 id="166" title="Contact Form"]')*/ ?>
+                            <?php echo do_shortcode('[contact-form-7 id="166" title="Contact Form"]') ?>
 
-                            <div class="wpcf7" id="wpcf7-f166-o1" lang="en-US" dir="ltr">
+                            <!--<div class="wpcf7" id="wpcf7-f166-o1" lang="en-US" dir="ltr">
                                 <div class="screen-reader-response"></div>
                                 <form name="" action="/oxoil/wordpress/news/#wpcf7-f166-o1" method="post" class="wpcf7-form ng-pristine ng-valid" novalidate="novalidate">
                                     <div style="display: none;">
@@ -34,7 +34,7 @@ get_header();
                                     <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://preview.iboostme.com/oxoil/wordpress/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
                                     <div class="wpcf7-response-output wpcf7-display-none"></div>
                                 </form>
-                            </div>
+                            </div>-->
 
 
                         </div>
