@@ -13,7 +13,7 @@ get_header();
                     <div class="well well-products well-main" style="min-height: 400px;">
                         <div class="text-center">
 
-                            <?php echo do_shortcode('[contact-form-7 id="166" title="Contact Form"]') ?>
+                            <?php echo do_shortcode('[cscf-contact-form]') ?>
 
                             <!--<div class="wpcf7" id="wpcf7-f166-o1" lang="en-US" dir="ltr">
                                 <div class="screen-reader-response"></div>
