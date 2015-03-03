@@ -12,8 +12,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="well well-products well-main" style="min-height: 400px;">
                         <div class="">
-                            <iframe width="600" height="450" frameborder="0" style="border:0"
-                                    src="https://www.google.com/maps/embed/v1/place?q=Dubai+-+United+Arab+Emirates&key=..."></iframe>
+                            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=9&center=25.2048%2C55.2708&key=AIzaSyDtnQ-CYgsu1CGmG8RSpPra8tcw09lsG3o"></iframe>
                         </div>
 
                         <div class="text-center">
