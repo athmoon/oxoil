@@ -232,7 +232,7 @@ header #logo .logo-tag {
 .wprss-time-ago { color: #b1b9bc; }
 .nav-links a { color: #e7e7e7 !important; }
 
-.short-feeds { padding: 30px 30px; }
+.short-feeds { padding: 30px 0 30px 30px; }
 .short-feeds .nav-links { display: none; }
 .short-feeds .wprss-feed-meta { display: none; }
 .short-feeds .rss-aggregator .feed-item {
@@ -282,6 +282,7 @@ header #logo .logo-tag {
 .scrollbar {
     height: 368px;
     overflow-y: scroll;
+    padding-right: 30px;
 }
 
 .scrollbar#style-1::-webkit-scrollbar-track
@@ -520,7 +521,7 @@ footer .list-items li a i { margin-right: 5px; }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .well-products-sidebar { margin-top: 395px; }
-    .well .title {  margin: 0 0 30px 0; }
+    .well .title {  margin: 0 0 15px 0; }
 }
 
 .well.well-products.well-main { min-height: 783px; }
