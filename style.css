@@ -226,7 +226,7 @@ header #logo .logo-tag {
 .news-item-title { font-size: 16px; color: #e7e7e7; }
 .news-item, .feed-item { padding: 0 0 20px 0; border-bottom: 1px dashed #6e7679; margin: 0 0 25px; }
 
-.rss-aggregator { list-style: none; }
+.rss-aggregator { list-style: none; padding-left: 0; }
 .rss-aggregator .feed-item {  padding: 0 0 20px 0; border-bottom: 1px dashed #6e7679; margin: 0 0 25px; }
 .rss-aggregator a { font-size: 16px; color: #e7e7e7; }
 .wprss-time-ago { color: #b1b9bc; }
