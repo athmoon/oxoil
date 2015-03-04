@@ -1,4 +1,4 @@
-var app = angular.module('oxoilApp', []);s
+var app = angular.module('oxoilApp', []);
 
 
 app.controller('MainController', function( $scope ){
