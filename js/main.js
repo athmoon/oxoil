@@ -6,8 +6,8 @@ $(function(){
     console.log( wellSide.height() );
     wellSide.css( 'margin-top', wellMain.height() - wellSide.height() + 29 );
 
-    shortFeedRssTitles.each(function(title){
-        console.log(title.text().length);
+    shortFeedRssTitles.each(function( index ){
+        console.log($(this).text().length);
     });
     /*shortFeedRssTitles.filter(function(title){
 
