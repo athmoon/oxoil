@@ -20,8 +20,8 @@ get_header();
                                             <div class="col-md-3 text-center"><img src="http://metagra-dmcc.ae/wp-content/themes/metagra/images/tracker-logo.png" alt="Street Address"></div>
                                             <div class="col-md-9">
                                                 <h4>Street Address</h4>
-                                                <p>Office 1402, Platinum Tower, Cluster I <br>
-                                                    P.O.Box: 38192, Jumeirah Lakes Towers <br>
+                                                <p>Office 1402, Platinum Tower, Cluster I
+                                                    P.O.Box: 38192, Jumeirah Lakes Towers
                                                     Dubai, UAE</p>
                                             </div>
                                         </div>
