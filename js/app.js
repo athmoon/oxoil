@@ -6,7 +6,7 @@ app.controller('MainController', function( $scope ){
 });
 
 app.controller('FeatureProductsController', ['$scope', function( $scope ){
-    $scope.featureProducts = [];
+    /*$scope.featureProducts = [];*/
     console.log($scope.featureProducts);
     /*$scope.init = function(productData){
      $scope.featureProducts = productData;
