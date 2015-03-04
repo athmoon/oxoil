@@ -11,8 +11,8 @@ get_header();
             <div class="row">
                 <div class="col-md-12">
                     <div class="well well-products well-main" style="min-height: 400px;">
-                        <div class="row" style="margin-top:20px;">
-                            <div class="col-md-12">
+                        <div class="row" >
+                            <div class="col-md-12" style="margin-top:20px; margin-bottom: 30px;">
                                 <div class="info">
                                     <div class="row">
 
