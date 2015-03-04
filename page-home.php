@@ -22,7 +22,7 @@
 		<div class="row">
 
 			<div class="col-md-8">
-				<div class="well well-main" style="min-height: 390px;">
+				<div class="well well-main" style="min-height: 300px;">
 					<h2 class="title">Oil Products</h2>
 					<div class="row" ng-controller="FeatureProductsController">
 						<div class="col-md-4 post-nav-container" <!--style="padding-right: 0"-->>
