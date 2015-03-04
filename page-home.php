@@ -5,7 +5,8 @@
 	*/
 	get_header();
 
-	$featuredProducts = get_field('product_features');
+	$featuredProducts = json_encode( get_field('product_features') );
+	trace( $featuredProducts );
 ?>
 <section class="banner-section">
 	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
