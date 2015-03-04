@@ -5,7 +5,7 @@
 	*/
 	get_header();
 
-	$featuredProducts = json_encode( get_field('product_features') );
+	$featuredProducts = json_encode( htmlentities(get_field('product_features')) );
 ?>
 <section class="banner-section">
 	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
@@ -25,7 +25,7 @@
 			<div class="col-md-8">
 				<div class="well well-main" style="min-height: 300px;">
 					<h2 class="title">Oil Products</h2>
-					<div class="row" ng-controller="FeatureProductsController" ng-init='init( "<?=$featuredProducts?>" ) '>
+					<div class="row" ng-controller="FeatureProductsController" ng-init='featureProducts = <?=$featuredProducts?> '>
 						<div class="col-md-4 post-nav-container">
 							<ul class="list-unstyled post-nav">
 								<li ng-repeat="product in featureProducts" ng-class="currentProduct.id == product.id ? 'active' : '' ">
