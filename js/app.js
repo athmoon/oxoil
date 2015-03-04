@@ -5,7 +5,7 @@ app.controller('MainController', function( $scope ){
     console.log('angularJS is working properly');
 });
 
-app.controller('FeatureProductsController', function( $scope ){
+app.controller('FeatureProductsController', function( product, $scope ){
     console.log(product.features);
     /*$scope.featureProducts = [
         { id: 1, title : 'Base Oil', photo:  'http://www.argusmedia.com.br/~//~/media/Images/Hero-Box-530-by-335/Petroleum/Base-Oil.jpg', description: 'Base oils are used to manufacture products including lubricating greases, motor oil and metal processing fluids. Different products require different compositions and properties in the oil. One of the most important factors is the liquid’s viscosity at various temperatures.' },
