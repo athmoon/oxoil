@@ -1,10 +1,16 @@
 $(function(){
     var wellMain = $('.well-main');
     var wellSide = $('.well-news');
-    var shortFeedRssTitle = $('.short-feeds .rss-aggregator a');
+    var shortFeedRssTitles = $('.short-feeds .rss-aggregator a');
     console.log( wellMain.height() );
     console.log( wellSide.height() );
     wellSide.css( 'margin-top', wellMain.height() - wellSide.height() + 29 );
 
-    console.log(shortFeedRssTitle.text().length);
+    shortFeedRssTitles.each(function(title){
+        console.log(title.text().length);
+    });
+    /*shortFeedRssTitles.filter(function(title){
+
+    });*/
+
 });
