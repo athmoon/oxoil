@@ -11,8 +11,8 @@ app.controller('FeatureProductsController', ['$scope', function( $scope ){
 
     console.log($scope.featureProducts);
     $scope.initFeature = function(productData){
-         //$scope.featureProducts = productData;
-        alert(1);
+         $scope.featureProducts = productData;
+         console.log($scope.featureProducts);
     };
 
 $scope.featureProducts = [
