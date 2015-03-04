@@ -4,8 +4,9 @@
 	Author: Juni Brosas @ iBoostme..
 	*/
 	get_header();
+
+	$featuredProducts = get_field('product_features');
 ?>
-<?php trace( get_field('product_features') );?>
 <section class="banner-section">
 	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
 	<div class="container">
@@ -24,7 +25,7 @@
 			<div class="col-md-8">
 				<div class="well well-main" style="min-height: 300px;">
 					<h2 class="title">Oil Products</h2>
-					<div class="row" ng-controller="FeatureProductsController">
+					<div class="row" ng-controller="FeatureProductsController" ng-init="featureProducts = <?=json_encode( $featuredProducts )?>">
 						<div class="col-md-4 post-nav-container">
 							<ul class="list-unstyled post-nav">
 								<li ng-repeat="product in featureProducts" ng-class="currentProduct.id == product.id ? 'active' : '' ">
