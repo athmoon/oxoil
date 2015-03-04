@@ -6,5 +6,5 @@ $(function(){
     console.log( wellSide.height() );
     wellSide.css( 'margin-top', wellMain.height() - wellSide.height() + 29 );
 
-    console.log(shortFeedRssTitle.length());
+    console.log(shortFeedRssTitle.length);
 });
