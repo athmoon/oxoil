@@ -30,8 +30,8 @@
 						<span ng-init='initFeature(<?=$featuredProducts?>)'></span>
 						<div class="col-md-4 post-nav-container">
 							<ul class="list-unstyled post-nav">
-								<li ng-repeat="product in featureProducts" ng-class="currentProduct.id == product.id ? 'active' : '' ">
-									<a style="cursor: pointer" ng-click="featureSelect( $index )">{{ product.title }}</a>
+								<li ng-repeat="product in featureProducts" ng-class="currentProduct === product ? 'active' : '' ">
+									<a style="cursor: pointer" ng-click="featureSelect( product )">{{ product.title }}</a>
 								</li>
 								<!--<li><a style="cursor: pointer" ng-click="featureSelect(0)">Base Oil</a></li>
 								<li class="active"><a style="cursor: pointer" ng-click="featureSelect(1)">Fuel with Sulfur</a></li>
