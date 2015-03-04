@@ -6,8 +6,13 @@ $(function(){
     console.log( wellSide.height() );
     wellSide.css( 'margin-top', wellMain.height() - wellSide.height() + 29 );
 
+    // limit each RSS titles
     shortFeedRssTitles.each(function( index ){
-        console.log($(this).text().length);
+        var limit = 90;
+
+        if($(this).text().length > limit){
+            $(this).text($(this).substring(0,limit) + '...');
+        }
     });
     /*shortFeedRssTitles.filter(function(title){
 
