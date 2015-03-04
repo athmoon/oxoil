@@ -5,7 +5,7 @@
 	*/
 	get_header();
 ?>
-
+<?php trace( get_field('product_features') );?>
 <section class="banner-section">
 	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
 	<div class="container">

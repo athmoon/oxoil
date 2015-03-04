@@ -20,7 +20,7 @@ $(document).ready(function(){
 
     });
 
-    console.log(base_url);
+   /* console.log(base_url);*/
     $(".featured-list figure a").click(function(){
 
         $('.ajax-content').fadeOut(400);
