@@ -259,7 +259,7 @@ header #logo .logo-tag {
 .post-nav li:hover, .post-nav .active { background-color: #4c4c4c; color: white !important; cursor: pointer }
 .post-nav-container{
     margin-left: -15px;
-    margin-right: -15px;
+    /*margin-right: -15px;*/
     /*padding-left: 0;*/
 }
 
