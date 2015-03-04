@@ -3,9 +3,7 @@
 Template Name: Contact Page
 Author: Juni Brosas
 */
-get_header();
-
-?>
+get_header(); ?>
     <section class="main-section with-bg">
         <div class="container">
             <div class="row">
@@ -15,7 +13,6 @@ get_header();
                             <div class="col-md-12" style="margin-top:20px; margin-bottom: 30px;">
                                 <div class="info">
                                     <div class="row">
-
                                         <div class="col-md-4">
                                             <div class="col-md-3 text-center"><img src="<?=asset('images/tracker-logo.png') ?>" alt="Street Address"></div>
                                             <div class="col-md-9">
