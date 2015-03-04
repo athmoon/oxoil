@@ -26,7 +26,7 @@
 				<div class="well well-main" style="min-height: 300px;">
 					<h2 class="title">Oil Products</h2>
 					<div class="row" ng-controller="FeatureProductsController">
-						<span ng-init='featureProducts = <?=$featuredProducts?>'></span>
+						<span ng-init='initFeature(0)'></span>
 						<div class="col-md-4 post-nav-container">
 							<ul class="list-unstyled post-nav">
 								<li ng-repeat="product in featureProducts" ng-class="currentProduct.id == product.id ? 'active' : '' ">
