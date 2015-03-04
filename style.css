@@ -281,7 +281,7 @@ header #logo .logo-tag {
 /*ScrollBar*/
 .scrollbar {
     height: 225px;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     padding-right: 30px;
 }
 

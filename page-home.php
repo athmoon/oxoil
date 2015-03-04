@@ -25,7 +25,7 @@
 				<div class="well well-main" style="min-height: 300px;">
 					<h2 class="title">Oil Products</h2>
 					<div class="row" ng-controller="FeatureProductsController">
-						<div class="col-md-4 post-nav-container" <!--style="padding-right: 0"-->>
+						<div class="col-md-4 post-nav-container">
 							<ul class="list-unstyled post-nav">
 								<li ng-repeat="product in featureProducts" ng-class="currentProduct.id == product.id ? 'active' : '' ">
 									<a style="cursor: pointer" ng-click="featureSelect( $index )">{{ product.title }}</a>
@@ -57,7 +57,7 @@
 			<div class="col-md-4">
 				<div class="well short-feeds" >
 					<h2 class="title"><a href="<?=get_permalink( 23 )?>" class="link">News</a></h2>
-					<div <!--class="scrollbar" id="style-1"-->>
+					<div class="scrollbar" id="style-no">
 						<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
 					</div>
 				</div>
