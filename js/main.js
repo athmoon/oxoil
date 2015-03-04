@@ -8,7 +8,7 @@ $(function(){
 
     // limit each RSS titles
     shortFeedRssTitles.each(function( index ){
-        var limit = 90;
+        var limit = 40;
 
         if($(this).text().length > limit){
             $(this).text($(this).substring(0,limit) + '...');
