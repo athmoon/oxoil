@@ -1,5 +1,5 @@
 var app = angular.module('oxoilApp', []);
-var product = {};
+var app.product = {};
 
 app.controller('MainController', function( $scope ){
     console.log('angularJS is working properly');
