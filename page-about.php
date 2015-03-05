@@ -4,8 +4,6 @@
     Author: Juni Brosas @ iBoostme..
     */
     get_header();
-
-    $featuredProducts =  json_encode( get_field('product_features') );
 ?>
 <section class="main-section with-bg">
     <div class="container">
@@ -17,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 200px; margin-bottom: 100px;">
+        <div class="row" style="margin-top: 200px; margin-bottom: 50px;">
             <div class="col-md-6">
                 <img src="<?=asset('images/energy-oil_rig.jpg')?>" alt="About Us" title="About Us" class="img-responsive" />
             </div>
