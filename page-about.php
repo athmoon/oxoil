@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 200px;">
+        <div class="row" style="margin-top: 200px; margin-bottom: 20px;">
             <div class="col-md-6">
                 <img src="http://www.aecom.com/deployedfiles/Internet/Homepage/Kuwait_Oil_Company_690x355.jpg" alt="About Us" title="About Us" class="img-responsive" />
             </div>
