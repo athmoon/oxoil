@@ -19,7 +19,7 @@
         </div>
         <div class="row" style="margin-top: 200px; margin-bottom: 100px;">
             <div class="col-md-6">
-                <img src="http://www.aecom.com/deployedfiles/Internet/Homepage/Kuwait_Oil_Company_690x355.jpg" alt="About Us" title="About Us" class="img-responsive" />
+                <img src="<?=asset('images/energy-oil_rig.jpg')?>" alt="About Us" title="About Us" class="img-responsive" />
             </div>
             <div class="col-md-6">
                 <h3 class="header-with-border">Focal Point on Trading</h3>

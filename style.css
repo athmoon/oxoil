@@ -167,8 +167,8 @@ header #logo .logo-img {
 header #logo .logo-tag {
     padding: 22px 25px 25px 25px;
 }
-.header-slogan { color: white; background-color: rgba(31,31,31,0.2); padding: 10px 20px; }
-.header-slogan h1 { font-weight: 100; }
+.header-slogan { color: white; background-color: rgba(31,31,31,0.2); padding: 10px 20px; padding: 10px 30px; }
+.header-slogan h1 { font-weight: 100; font-size: 37px; }
 .header-with-border {
     font-weight: 600;
     border-top: 5px solid #2c276d;
