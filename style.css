@@ -36,8 +36,7 @@ b{
 
 /*Sections*/
 section{
-    color: #444444;
-
+    color: #fff;
 }
 /*
 section img, .featured-list figure{
@@ -280,7 +279,7 @@ header #logo .logo-tag {
 .certificate { position: relative; top: 3px; left: 2px; }
 .read-more-btn { font-size: 12px; color: white !important; }
 
-.main-section { margin: 50px 0; }
+.main-section {}
 .main-section.with-bg { background: url('images/banner-clean.jpg') no-repeat top center; min-height: 500px; background-size: contain; }
 .main-section.with-bg .container { padding-top: 50px; }
 
