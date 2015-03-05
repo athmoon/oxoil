@@ -7,7 +7,7 @@
 
     $featuredProducts =  json_encode( get_field('product_features') );
 ?>
-<section class="banner-section">
+<section class="main-section with-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-2">

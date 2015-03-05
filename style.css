@@ -167,7 +167,7 @@ header #logo .logo-img {
 header #logo .logo-tag {
     padding: 22px 25px 25px 25px;
 }
-.header-slogan { background-color: rgba(31,31,31,0.8); }
+.header-slogan { color: white; background-color: rgba(31,31,31,0.8); }
 
 /*Navigation Bar*/
 .navbar-nav {
