@@ -520,9 +520,9 @@ footer .list-items li a i { margin-right: 5px; }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .well-products-sidebar { margin-top: 483px; }
+    .well-products-sidebar { margin-top: 380px; }
     .well .title {  margin: 0 0 15px 0; }
 }
 
-.well.well-products.well-main { min-height: 783px; }
+.well.well-products.well-main { min-height: 680px; }
 .navbar-collapse.in { overflow-y: visible; }
