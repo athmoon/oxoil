@@ -17,7 +17,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top: 200px; margin-bottom: 50px;">
+            <div class="row" style="margin-top: 200px; margin-bottom: 100px;">
                 <div class="col-md-12 text-center">
                     <p>This page is under construction.</p>
                 </div>
