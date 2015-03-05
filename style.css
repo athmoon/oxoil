@@ -174,7 +174,8 @@ header #logo .logo-tag {
     border-top: 5px solid #2c276d;
     font-size: 18px;
     display: inline-block;
-    padding: 5px 0 0 0; }
+    padding: 7px 0 0 0;
+    margin-top: 0; }
 .header-normal { margin-bottom: 20px; font-size: 24px; }
 /*Navigation Bar*/
 .navbar-nav {
