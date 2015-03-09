@@ -17,9 +17,11 @@ get_header(); ?>
                                             <div class="col-md-3 text-center"><img src="<?=asset('images/tracker-logo.png') ?>" alt="Street Address"></div>
                                             <div class="col-md-9">
                                                 <h4>Street Address</h4>
-                                                <p>Office 1402, Platinum Tower, Cluster I
-                                                    P.O.Box: 38192, Jumeirah Lakes Towers
-                                                    Dubai, UAE</p>
+                                                <p>Unit No 30-01-1003 <br/>
+                                                    Jewellery & Gemplex 3 <br/>
+                                                    Plot No: DMCC-PH2-J&GPlexS <br/>
+                                                    Jewellery & Gemplex <br/>
+                                                    Dubai, United Arab Emirates</p>
                                             </div>
                                         </div>
 
@@ -27,7 +29,8 @@ get_header(); ?>
                                             <div class="col-md-3 text-center"><img src="<?=asset('images/phone-icon.png') ?>" alt="Phone"></div>
                                             <div class="col-md-9">
                                                 <h4>Phone</h4>
-                                                <p>Tel: +971 4 369 9787</p>
+                                                <p>Tel: +97143699787</p>
+                                                <p>Fax: +97144470598</p>
                                             </div>
                                         </div>
 
@@ -35,7 +38,7 @@ get_header(); ?>
                                             <div class="col-md-3 text-center"><img src="<?=asset('images/email-icon.png') ?>" alt="Email"></div>
                                             <div class="col-md-9">
                                                 <h4>Email</h4>
-                                                <p>info@metagra-dmcc.ae</p>
+                                                <p>info@oxoil.ae</p>
                                             </div>
                                         </div>
                                     </div>
