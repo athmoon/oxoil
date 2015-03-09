@@ -27,7 +27,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="<?=asset('images/what-we-doo.jpg')?>" alt="About Us" title="About Us" class="img-responsive" />
+                    <img src="<?=asset('images/what-we-do.jpg')?>" alt="About Us" title="About Us" class="img-responsive" />
                 </div>
                 <div class="col-md-6">
                     <h3 class="header-with-border">What We Do?</h3>
