@@ -20,7 +20,6 @@ get_header(); ?>
                                                 <p>Unit No 30-01-1003 <br/>
                                                     Jewellery & Gemplex 3 <br/>
                                                     Plot No: DMCC-PH2-J&GPlexS <br/>
-                                                    Jewellery & Gemplex <br/>
                                                     Dubai, United Arab Emirates</p>
                                             </div>
                                         </div>
