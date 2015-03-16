@@ -6,7 +6,7 @@
 			<div class="row">
 				<div class="col-lg-4 col-sm-6">
 					<small>Copyright OX OIL TRADING © 2014. All Rights Reserved</small>
-					<p><i class="fa fa-phone-square"></i> Call us <span class="emp"><b>+123 4567 8901</b></span>
+					<p><i class="fa fa-phone-square"></i> Call us <span class="emp"><b>+97143699787</b></span>
 					</p>
 				</div>
 				<div class="col-lg-4 col-sm-6">
