@@ -34,10 +34,12 @@ get_header();
             <div class="col-md-4">
                 <div class="short-feeds">
                     <?php include('widgets/widget-ticker.php')?>
+
+                    <div class="well">
+                        <?php include('widgets/widget-short-feeds.php')?>
+                    </div>
                 </div>
-                <div class="well short-feeds">
-                    <?php include('widgets/widget-short-feeds.php')?>
-                </div>
+
                 <!--<div class="">
                     <?php /*include('widgets/widget-ticker.php')*/?>
                 </div>
