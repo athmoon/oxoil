@@ -8,7 +8,7 @@
 	$featuredProducts =  json_encode( get_field('product_features') );
 ?>
 <section class="banner-section">
-	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive"/>
+	<img src="<?=asset('images/banner.jpg')?>" alt="" class="img-responsive" style="width: 100%;"/>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
