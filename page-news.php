@@ -37,7 +37,7 @@ get_header();
                         <?php /*include('widgets/widget-ticker.php')*/?>
                     </div>-->
                     <?php /*include('widgets/widget-short-feeds.php') */?>
-                    <div class="well well-products-sidebar well-news">
+                    <div class="well well-products-sidebar well-news short-feeds">
 
                         <?php include('widgets/widget-short-feeds.php')?>
                     </div>
