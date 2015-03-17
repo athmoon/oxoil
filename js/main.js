@@ -7,7 +7,7 @@ $(function(){
 
     setTimeout(function(){
         wellSide.css( 'margin-top', wellMain.height() - wellSide.height() );
-    }, 1000);
+    }, 100);
 
     // limit each RSS titles
     shortFeedRssTitles.each(function( index ){
