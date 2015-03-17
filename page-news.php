@@ -32,7 +32,7 @@ get_header();
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well-news">
+                <div class="well-news well-products-sidebar">
                     <div style="margin-bottom: 20px;">
                         <?php include('widgets/widget-ticker.php')?>
                     </div>
