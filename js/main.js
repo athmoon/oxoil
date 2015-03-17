@@ -4,7 +4,7 @@ $(function(){
     var shortFeedRssTitles = $('.short-feeds .rss-aggregator a');
     console.log( wellMain.height() );
     console.log( wellSide.height() );
-    wellSide.css( 'margin-top', wellMain.height() - wellSide.height() + 59 );
+    wellSide.css( 'margin-top', wellMain.height() - wellSide.height()  );
 
     // limit each RSS titles
     shortFeedRssTitles.each(function( index ){
