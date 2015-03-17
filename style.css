@@ -239,7 +239,11 @@ header #logo .logo-tag {
 .rss-aggregator { list-style: none; padding-left: 0; }
 .rss-aggregator .feed-item {  padding: 0 0 20px 0; border-bottom: 1px dashed #6e7679; margin: 0 0 25px; }
 .rss-aggregator a { font-size: 16px; color: #e7e7e7; }
+
+/*RSS FEEDS*/
 .wprss-time-ago { color: #b1b9bc; }
+.wprss-feed-meta { display: none; }
+
 .nav-links a { color: #e7e7e7 !important; }
 
 .short-feeds { padding: 30px 0 30px 30px; }
