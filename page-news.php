@@ -16,7 +16,7 @@ get_header();
 <section class="main-section with-bg">
     <div class="container">
 
-        <div class="row">
+        <div class="row" id="col-main-news">
 
             <div class="col-md-8">
                 <div class="well well-products well-main" style="min-height: 640px;">
@@ -31,7 +31,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" id="col-news">
                 <div class="well-news">
                     <?php include('widgets/widget-ticker.php')?>
 

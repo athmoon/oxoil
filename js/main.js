@@ -1,6 +1,6 @@
 $(function(){
-    var wellMain = $('.well-main');
-    var wellSide = $('.well-news');
+    var wellMain = $('#col-main-news');
+    var wellSide = $('#col-news');
     var shortFeedRssTitles = $('.short-feeds .rss-aggregator a');
     console.log( wellMain.height() );
     console.log( wellSide.height() );
