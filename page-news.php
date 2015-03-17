@@ -36,11 +36,12 @@ get_header();
                     <div style="margin-bottom: 20px;">
                         <?php include('widgets/widget-ticker.php')?>
                     </div>
-                    <div class="well well-products-sidebar " style="padding: 15px;">
+                    <?php include('widgets/widget-short-feeds.php') ?>
+                    <!--<div class="well well-products-sidebar " style="padding: 15px;">
                         <h2 class="title" style="margin-bottom: 10px;">Commodity Index</h2>
 
-                        <?php include('widgets/widget-commodity.php') ?>
-                    </div>
+                        <?php /*include('widgets/widget-commodity.php') */?>
+                    </div>-->
                 </div>
 
             </div>

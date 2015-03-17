@@ -32,9 +32,6 @@
 								<li ng-repeat="product in featureProducts" ng-class="currentProduct === product ? 'active' : '' ">
 									<a style="cursor: pointer" ng-click="featureSelect( product )">{{ product.title }}</a>
 								</li>
-								<!--<li><a style="cursor: pointer" ng-click="featureSelect(0)">Base Oil</a></li>
-								<li class="active"><a style="cursor: pointer" ng-click="featureSelect(1)">Fuel with Sulfur</a></li>
-								<li><a style="cursor: pointer" ng-click="featureSelect(2)">Gasoline</a></li>-->
 							</ul>
 						</div>
 						<div class="col-md-8" style="padding-left: 0; padding-right: 0">
@@ -57,12 +54,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="well short-feeds" >
-					<h2 class="title"><a href="<?=get_permalink( 23 )?>" class="link">News</a></h2>
-					<div class="scrollbar" id="style-no">
-						<?php echo do_shortcode('[wp-rss-aggregator limit="3"]'); ?>
-					</div>
-				</div>
+
+				<?php include('widgets/widget-short-feeds.php')?>
+
 			</div>
 		</div>
 	</div>
