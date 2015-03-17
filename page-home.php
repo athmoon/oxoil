@@ -54,7 +54,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="well short-feeds" >
+				<div class="well short-feeds well-products-sidebar" >
 					<?php include('widgets/widget-short-feeds.php')?>
 				</div>
 
