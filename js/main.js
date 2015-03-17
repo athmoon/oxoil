@@ -6,7 +6,7 @@ $(function(){
     console.log( wellSide.height() );
 
     setTimeout(function(){
-        wellSide.css( 'margin-top', wellMain.height() - wellSide.height() + 300 );
+        wellSide.css( 'margin-top', wellMain.height() - wellSide.height() );
     }, 1000);
 
     // limit each RSS titles
