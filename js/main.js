@@ -14,8 +14,4 @@ $(function(){
             $(this).text(linkText.substring(0,limit) + '...');
         }
     });
-    /*shortFeedRssTitles.filter(function(title){
-
-    });*/
-
 });
