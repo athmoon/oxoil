@@ -40,7 +40,7 @@ get_header();
                     <div class="well well-products-sidebar well-news" style="padding: 15px;">
                         <h2 class="title" style="margin-bottom: 10px;">Commodity Index</h2>
 
-                        <?php include('widgets/widget-commodity.php') ?>
+                        <?php include('widgets/widget-short-feeds.php')?>
                     </div>
                 </div>
 
