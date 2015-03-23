@@ -49,7 +49,8 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <iframe style="margin-top:60px;" width="100%" height="369" frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk"></iframe>
+                                <iframe style="margin-top:60px;" width="100%" height="369" frameborder="0"src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3614.243640722717!2d55.136533!3d25.05973!3m2!1i1024!2i768!4f13.1!2m1!1sJewellery+%26+Gemplex+3++Dubai%2C+United+Arab+Emirates!5e0!3m2!1sen!2sph!4v1427102387881" ></iframe>
+                                <!--<iframe style="margin-top:60px;" width="100%" height="369" frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk"></iframe>-->
                                 <!--<iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=9&center=25.2048%2C55.2708&key=AIzaSyDtnQ-CYgsu1CGmG8RSpPra8tcw09lsG3o"></iframe>-->
                             </div>
                         </div>
