@@ -44,9 +44,9 @@
 								<div class="col-md-7">
 									<!--<h4 class="media-heading">Media heading</h4>-->
 									<p>{{ currentProduct.description }}</p>
-									<div class="text-right">
+									<!--<div class="text-right">
 										<a href="#" class="read-more-btn">read more <i class="fa fa-angle-double-right"></i></a>
-									</div>
+									</div>-->
 								</div>
 							</div>
 						</div>
