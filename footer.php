@@ -5,7 +5,7 @@
 		<div class="container copyright">
 			<div class="row">
 				<div class="col-lg-4 col-sm-6">
-					<small>Copyright OX OIL TRADING DMCC © 2014. All Rights Reserved</small>
+					<small>Copyright OX OIL TRADING DMCC © 2013-2015. All Rights Reserved</small>
 					<p><i class="fa fa-phone-square"></i> Call us <span class="emp"><b>+97143699787</b></span>
 					</p>
 				</div>
